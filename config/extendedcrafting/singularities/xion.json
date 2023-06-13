@@ -1,0 +1,10 @@
+{
+    "name": "Xion Crystal",
+    "colors": [
+      "4acfff",
+      "4acfff"
+    ],
+    "ingredient": {
+        "item": "tardis:xion_crystal"
+    }
+}
