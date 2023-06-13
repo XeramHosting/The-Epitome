@@ -1,7 +1,7 @@
 {
 	id: "5D6598BB73C524BC"
-	group: ""
-	order_index: 2
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 3
 	filename: "world_conquerors_trophy"
 	title: "World Conqueror's Trophy"
 	icon: "storagedrawers:creative_storage_upgrade"
@@ -13,33 +13,44 @@
 			x: 0.0d
 			y: 0.0d
 			dependencies: [
-				"0C026689C40696ED"
-				"051E50DFCC5871F5"
-				"6ED5B8F8625A35DA"
-				"6F8F27786FC07696"
-				"5628CFD2FF4BFD44"
-				"245B54EAABC94D93"
+				"6848379F7EDF1D17"
+				"40D56A2E1FADDA4D"
 				"1F6B09DC48FCC9B1"
-				"2E629AF22AD53B79"
-				"0A52D3E98839832E"
-				"7C39C4972CF0F929"
-				"52DD1F618DC73651"
-				"7B9E7782292A0FD5"
+				"1089A18125C0BC04"
+				"031A48307DE1BD1D"
+				"102C0E7356BCDA8F"
+				"54D7E673A18EC407"
+				"7850E0FFC80A9380"
+				"5F7907E8EF25378D"
+				"17EC2894E14B57B1"
+				"61793D3C90DAA7A8"
+				"38AA7681E5663A65"
 				"4497CED5B42426EB"
-				"029BCEDAE16B1C54"
-				"43320FF11A4D40BB"
+				"0C026689C40696ED"
 				"59C9945AF7FCB066"
 				"0AAB9351BC7CD72C"
-				"00D521A491C772C5"
+				"7B9E7782292A0FD5"
+				"7C39C4972CF0F929"
+				"52DD1F618DC73651"
 				"46CDDF83E7C3D111"
 				"78B72FDF8D023C29"
-				"332AE6E5EBA2C59E"
-				"5903E2E9A4C02ADA"
-				"09CB88C35ECDAA6E"
-				"22667345D4ACAFA5"
-				"1D99B9FAC76D173C"
+				"0A52D3E98839832E"
+				"029BCEDAE16B1C54"
 				"2E6A6B2719698B9F"
+				"1D99B9FAC76D173C"
+				"22667345D4ACAFA5"
+				"051E50DFCC5871F5"
+				"245B54EAABC94D93"
+				"5628CFD2FF4BFD44"
+				"2E629AF22AD53B79"
 				"575A01EC217F7353"
+				"00D521A491C772C5"
+				"6ED5B8F8625A35DA"
+				"6F8F27786FC07696"
+				"09CB88C35ECDAA6E"
+				"5903E2E9A4C02ADA"
+				"332AE6E5EBA2C59E"
+				"43320FF11A4D40BB"
 			]
 			id: "204A4642A19B2184"
 			tasks: [{
@@ -358,6 +369,116 @@
 				id: "3F7B4729C04055BA"
 				type: "kill"
 				entity: "rats:rat_baron"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "1089A18125C0BC04"
+			tasks: [{
+				id: "38A7EA32E26C5AE8"
+				type: "kill"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "031A48307DE1BD1D"
+			tasks: [{
+				id: "11A4DFA220FD803E"
+				type: "kill"
+				entity: "mowziesmobs:foliaath"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "17EC2894E14B57B1"
+			tasks: [{
+				id: "4A9DF46E40D74A82"
+				type: "kill"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "5F7907E8EF25378D"
+			tasks: [{
+				id: "1DF619A049ECFB5D"
+				type: "kill"
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			id: "61793D3C90DAA7A8"
+			tasks: [{
+				id: "0DBC84512C85DCAD"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "40D56A2E1FADDA4D"
+			tasks: [{
+				id: "40CDED8CECE41CAE"
+				type: "kill"
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "102C0E7356BCDA8F"
+			tasks: [{
+				id: "76AAC5312299B566"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "7850E0FFC80A9380"
+			tasks: [{
+				id: "49C66B470A353DFA"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "54D7E673A18EC407"
+			tasks: [{
+				id: "6E70E30DD6112C88"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			id: "6848379F7EDF1D17"
+			tasks: [{
+				id: "27B21813C1A59EDE"
+				type: "kill"
+				entity: "alexsmobs:void_worm"
 				value: 1L
 			}]
 		}
