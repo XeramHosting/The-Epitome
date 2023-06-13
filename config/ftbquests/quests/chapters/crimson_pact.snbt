@@ -1,0 +1,453 @@
+{
+	id: "1641FFDFE9E26162"
+	group: "233C7C1A11DB79AC"
+	order_index: 1
+	filename: "crimson_pact"
+	title: "Crimson Pact"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.2d
+			y: -1.2d
+			subtitle: "Are you ready to sacrifice yourself?"
+			id: "07EC28AFCECFCDAB"
+			tasks: [{
+				id: "2A86BCA1E3944026"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.2d
+			subtitle: "Tier 2"
+			dependencies: [
+				"07EC28AFCECFCDAB"
+				"6A3D46987F3CA2D8"
+			]
+			id: "10355034D3C476AA"
+			tasks: [{
+				id: "2444E69F3D87BE72"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+		}
+		{
+			x: 2.6d
+			y: -1.2d
+			subtitle: "Tier 3"
+			dependencies: ["10355034D3C476AA"]
+			id: "3B192674B09C779C"
+			tasks: [
+				{
+					id: "70B7F29C23E95D0C"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 20L
+					weak_nbt_match: true
+				}
+				{
+					id: "70B281FD94FF78B7"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 8L
+					weak_nbt_match: true
+				}
+				{
+					id: "2326F4F7ED6F1295"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+					weak_nbt_match: true
+				}
+			]
+		}
+		{
+			x: 4.2d
+			y: -1.2d
+			subtitle: "Tier 4"
+			dependencies: ["3B192674B09C779C"]
+			id: "6078C60319A62BA9"
+			tasks: [
+				{
+					id: "2E30A07DED6843D4"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "6E28C1E197CF03AF"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+				{
+					id: "7CCA5F2139DA1CF9"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 5.8d
+			y: -1.2d
+			subtitle: "Tier 5"
+			dependencies: ["6078C60319A62BA9"]
+			id: "18CB7F9DE7950D30"
+			tasks: [
+				{
+					id: "6048435E989222F6"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 52L
+				}
+				{
+					id: "3EA1D0088FCCFF3B"
+					type: "item"
+					item: "minecraft:beacon"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -3.2d
+			y: -2.4d
+			dependencies: ["07EC28AFCECFCDAB"]
+			id: "3E927E3CD20819EE"
+			tasks: [{
+				id: "234D64508C2BF18E"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["10355034D3C476AA"]
+			id: "7FD295F05BDAE514"
+			tasks: [{
+				id: "0F6FA138C36BD9BA"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: 1.6d
+			y: -2.4d
+			dependencies: ["3B192674B09C779C"]
+			id: "4E98578418BF341F"
+			tasks: [{
+				id: "78D63EA0AEEE32E5"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 5.2d
+			y: 0.0d
+			dependencies: ["6078C60319A62BA9"]
+			id: "774DB93606734592"
+			tasks: [{
+				id: "7D05F9F514F63482"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: -0.6d
+			y: -1.2d
+			subtitle: "Just a little pinch!"
+			dependencies: ["07EC28AFCECFCDAB"]
+			id: "6A3D46987F3CA2D8"
+			tasks: [{
+				id: "481DC8B7673774DA"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "STABBY STABBY!"
+			dependencies: ["10355034D3C476AA"]
+			id: "07FADC7B3B7C24D3"
+			tasks: [{
+				id: "5F003FB64006E9AC"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: -2.2d
+			y: -2.4d
+			subtitle: "To new beginnings!"
+			dependencies: ["07EC28AFCECFCDAB"]
+			id: "4E351959F99A53F7"
+			tasks: [{
+				id: "357FD8F2DD17FB0A"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Is this Positive or Negative reinforcement?"
+			dependencies: ["10355034D3C476AA"]
+			id: "505AE147BBE6829C"
+			tasks: [{
+				id: "2A4C02AABE91082B"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+		}
+		{
+			x: 2.6d
+			y: -2.4d
+			subtitle: "Imbued with the strength of my will!"
+			dependencies: ["3B192674B09C779C"]
+			id: "712A50EC4D601F00"
+			tasks: [{
+				id: "6F79B7AFBBC3ACC6"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+		}
+		{
+			x: 4.2d
+			y: 0.0d
+			subtitle: "Maybe my will wasn't all that strong..."
+			dependencies: ["6078C60319A62BA9"]
+			id: "2EE28EFABE9AFE16"
+			tasks: [{
+				id: "06CB8E5FCCAB4B47"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+		}
+		{
+			x: 5.8d
+			y: -2.4d
+			subtitle: "Am... Am I dead?"
+			dependencies: ["18CB7F9DE7950D30"]
+			id: "7B8A092677450FCC"
+			tasks: [{
+				id: "1D2ACF3D598451A4"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+		}
+		{
+			x: 2.6d
+			y: -3.4d
+			dependencies: ["712A50EC4D601F00"]
+			id: "235F704099D398FD"
+			tasks: [{
+				id: "584D89FBDD9CE257"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+		}
+		{
+			x: 2.6d
+			y: -4.4d
+			dependencies: ["235F704099D398FD"]
+			id: "3660717AC04551D5"
+			tasks: [{
+				id: "660F0EFB354BD0CB"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+		}
+		{
+			x: -2.2d
+			y: -3.4d
+			dependencies: ["4E351959F99A53F7"]
+			id: "5B9183CD430BD32F"
+			tasks: [{
+				id: "5523E807CE130E9A"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: 3.6d
+			y: -2.4d
+			dependencies: ["3B192674B09C779C"]
+			id: "1D417FF49C48E451"
+			tasks: [
+				{
+					id: "6FB7ABDDF8838352"
+					type: "item"
+					item: {
+						id: "bloodmagic:airscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20C12DABAD8ECA9E"
+					type: "item"
+					item: {
+						id: "bloodmagic:firescribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4002552ECA8C6324"
+					type: "item"
+					item: {
+						id: "bloodmagic:waterscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A7FAFA761995378"
+					type: "item"
+					item: {
+						id: "bloodmagic:earthscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.2d
+			y: 0.0d
+			dependencies: ["6078C60319A62BA9"]
+			id: "269D6A6B28A4175E"
+			tasks: [{
+				id: "60097DC794460A69"
+				type: "item"
+				item: {
+					id: "bloodmagic:duskscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.2d
+			y: -4.4d
+			dependencies: ["5B9183CD430BD32F"]
+			id: "262DE7104A268A97"
+			tasks: [{
+				id: "06B8E6F4FFF245AD"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: -1.2d
+			y: -4.4d
+			subtitle: "I don't have a good line for this one XD"
+			dependencies: [
+				"262DE7104A268A97"
+				"64B84872302C0268"
+			]
+			id: "71E0A53A477FAA39"
+			tasks: [
+				{
+					id: "1F6A8393DF755244"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgempetty"
+						Count: 1b
+						tag: {
+							souls: 64.0d
+						}
+					}
+					weak_nbt_match: true
+				}
+				{
+					id: "1554B967AC675CFA"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemlesser"
+						Count: 1b
+						tag: {
+							souls: 256.0d
+						}
+					}
+					weak_nbt_match: true
+				}
+				{
+					id: "5609C6F8E665D207"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemcommon"
+						Count: 1b
+						tag: {
+							souls: 1024.0d
+						}
+					}
+					weak_nbt_match: true
+				}
+				{
+					id: "13A334467F9AA3BD"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemgreater"
+						Count: 1b
+						tag: {
+							souls: 4096.0d
+						}
+					}
+					weak_nbt_match: true
+				}
+			]
+		}
+		{
+			x: -1.2d
+			y: -2.4d
+			subtitle: "Get over here!"
+			dependencies: ["07EC28AFCECFCDAB"]
+			secret: true
+			id: "652D70CB834DF9D4"
+			tasks: [{
+				id: "786CB284B9CF0DC8"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+		}
+		{
+			x: -1.2d
+			y: -3.4d
+			subtitle: "Fetch me their souls!"
+			dependencies: ["652D70CB834DF9D4"]
+			id: "64B84872302C0268"
+			tasks: [{
+				id: "2FC9AF8A83B647BF"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		}
+	]
+}

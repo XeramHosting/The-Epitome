@@ -1,0 +1,365 @@
+{
+	id: "5D6598BB73C524BC"
+	group: ""
+	order_index: 2
+	filename: "world_conquerors_trophy"
+	title: "World Conqueror's Trophy"
+	icon: "storagedrawers:creative_storage_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "storagedrawers:creative_storage_upgrade"
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"0C026689C40696ED"
+				"051E50DFCC5871F5"
+				"6ED5B8F8625A35DA"
+				"6F8F27786FC07696"
+				"5628CFD2FF4BFD44"
+				"245B54EAABC94D93"
+				"1F6B09DC48FCC9B1"
+				"2E629AF22AD53B79"
+				"0A52D3E98839832E"
+				"7C39C4972CF0F929"
+				"52DD1F618DC73651"
+				"7B9E7782292A0FD5"
+				"4497CED5B42426EB"
+				"029BCEDAE16B1C54"
+				"43320FF11A4D40BB"
+				"59C9945AF7FCB066"
+				"0AAB9351BC7CD72C"
+				"00D521A491C772C5"
+				"46CDDF83E7C3D111"
+				"78B72FDF8D023C29"
+				"332AE6E5EBA2C59E"
+				"5903E2E9A4C02ADA"
+				"09CB88C35ECDAA6E"
+				"22667345D4ACAFA5"
+				"1D99B9FAC76D173C"
+				"2E6A6B2719698B9F"
+				"575A01EC217F7353"
+			]
+			id: "204A4642A19B2184"
+			tasks: [{
+				id: "30D0EE721C9D0532"
+				type: "checkmark"
+				title: "God of the Gods"
+			}]
+			rewards: [{
+				id: "79405030AD0C2DFB"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "051E50DFCC5871F5"
+			tasks: [{
+				id: "336E76D43E6DE2EA"
+				type: "kill"
+				entity: "aerialhell:mud_cycle_mage"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "0C026689C40696ED"
+			tasks: [{
+				id: "008D676B07EC61C4"
+				type: "kill"
+				entity: "aerialhell:lunatic_priest"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "6ED5B8F8625A35DA"
+			tasks: [{
+				id: "1E57710C0CCF31B3"
+				type: "kill"
+				entity: "aerialhell:chained_god"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			id: "6F8F27786FC07696"
+			tasks: [{
+				id: "25BBDC39C979A612"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "5628CFD2FF4BFD44"
+			tasks: [{
+				id: "073C3E09A9BE4D4D"
+				type: "kill"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "245B54EAABC94D93"
+			tasks: [{
+				id: "232B73B9E57184E2"
+				type: "kill"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "1F6B09DC48FCC9B1"
+			tasks: [{
+				id: "4F649ED21BBF9939"
+				type: "kill"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "2E629AF22AD53B79"
+			tasks: [{
+				id: "69C785F0809C04AF"
+				type: "kill"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "0A52D3E98839832E"
+			tasks: [{
+				id: "78955B32A8327473"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 5L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "7C39C4972CF0F929"
+			tasks: [{
+				id: "6E19C7132B6DC7AA"
+				type: "kill"
+				entity: "atum:pharaoh"
+				value: 5L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "38AA7681E5663A65"
+			tasks: [{
+				id: "33E6DA470108EB72"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "52DD1F618DC73651"
+			tasks: [{
+				id: "3EB948337249A1AF"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "7B9E7782292A0FD5"
+			tasks: [{
+				id: "6F48FAF01DC25FA7"
+				type: "kill"
+				entity: "iceandfire:hydra"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "4497CED5B42426EB"
+			tasks: [{
+				id: "226EB6BE4DFCA1C6"
+				type: "kill"
+				entity: "iceandfire:lightning_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "029BCEDAE16B1C54"
+			tasks: [{
+				id: "7420C3A38A48B304"
+				type: "kill"
+				entity: "iceandfire:fire_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "43320FF11A4D40BB"
+			tasks: [{
+				id: "2BD10BFE8D21CBA4"
+				type: "kill"
+				entity: "iceandfire:ice_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "59C9945AF7FCB066"
+			tasks: [{
+				id: "774E26832E9C04D8"
+				type: "kill"
+				entity: "ars_nouveau:wilden_boss"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "0AAB9351BC7CD72C"
+			tasks: [{
+				id: "6EF8AC9AA9B3812A"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "00D521A491C772C5"
+			tasks: [{
+				id: "390503BEFAB2BC4C"
+				type: "kill"
+				entity: "meetyourfight:swampjaw"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "46CDDF83E7C3D111"
+			tasks: [{
+				id: "3BA6F81460D09BE3"
+				type: "kill"
+				entity: "meetyourfight:dame_fortuna"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "78B72FDF8D023C29"
+			tasks: [{
+				id: "032AB3D73342FF9E"
+				type: "kill"
+				entity: "meetyourfight:bellringer"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "332AE6E5EBA2C59E"
+			tasks: [{
+				id: "6C004848DD7B3688"
+				type: "kill"
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			id: "5903E2E9A4C02ADA"
+			tasks: [{
+				id: "0328809856E17949"
+				type: "kill"
+				entity: "rats:black_death"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "09CB88C35ECDAA6E"
+			tasks: [{
+				id: "7DB660F259D7267D"
+				type: "kill"
+				entity: "rats:rat_king"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "22667345D4ACAFA5"
+			tasks: [{
+				id: "47811A833792124B"
+				type: "kill"
+				entity: "rats:neo_ratlantean"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "1D99B9FAC76D173C"
+			tasks: [{
+				id: "36BEB0DA3AD1DAAD"
+				type: "kill"
+				entity: "rats:ratlantean_automaton"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "2E6A6B2719698B9F"
+			tasks: [{
+				id: "4195967DD001319E"
+				type: "kill"
+				entity: "rats:dutchrat"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "575A01EC217F7353"
+			tasks: [{
+				id: "3F7B4729C04055BA"
+				type: "kill"
+				entity: "rats:rat_baron"
+				value: 1L
+			}]
+		}
+	]
+}

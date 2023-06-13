@@ -1,0 +1,7 @@
+{
+    "name": "Logic Director",
+    "colors": ["AC7DAC", "6D3D6D"],
+    "ingredient": {
+        "item": "integrateddynamics:logic_director"
+    }
+}

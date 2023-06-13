@@ -1,0 +1,28 @@
+{
+	id: "2D06914DDDCD46A1"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 2
+	filename: "voyage_of_diverse_realms"
+	title: "Pathfinder's Tapestry"
+	icon: {
+		id: "naturescompass:naturescompass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.4d
+		y: -0.4d
+		id: "60AE70811EC2E3D3"
+		tasks: [{
+			id: "5C72765532A8D323"
+			type: "item"
+			item: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+		}]
+	}]
+}

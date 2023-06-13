@@ -1,0 +1,18 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:crystal_plains"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:goldstone_lands"
+      }
+    ]
+  ]
+}

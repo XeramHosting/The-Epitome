@@ -1,0 +1,10 @@
+{
+    "name": "Overcharged Alloy",
+    "colors": [
+      "4acfff",
+      "4acfff"
+    ],
+    "ingredient": {
+      "item": "createaddition:overcharged_alloy"
+    }
+  }

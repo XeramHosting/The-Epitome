@@ -1,0 +1,7 @@
+{
+    "name": "Crystal Shard",
+    "colors": ["8B8FEF", "F979FC"],
+    "ingredient": {
+        "item": "betterendforge:crystal_shards"
+    }
+}

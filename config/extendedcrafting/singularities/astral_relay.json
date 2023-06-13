@@ -1,0 +1,7 @@
+{
+    "name": "Astral Relay",
+    "colors": ["C69539", "C69539"],
+    "ingredient": {
+        "item": "astralsorcery:spectral_relay"
+    }
+}

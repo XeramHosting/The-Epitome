@@ -1,0 +1,7 @@
+{
+    "name": "Raw Neural Processor",
+    "colors": ["A769FC", "A769FC"],
+    "ingredient": {
+        "item": "extrastorage:raw_neural_processor"
+    }
+}

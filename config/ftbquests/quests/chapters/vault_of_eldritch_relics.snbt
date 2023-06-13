@@ -1,0 +1,20 @@
+{
+	id: "0E9139D607ED0826"
+	group: "51A320C9295B1062"
+	order_index: 3
+	filename: "vault_of_eldritch_relics"
+	title: "Vault of Eldritch Relics"
+	icon: "losttrinkets:mad_piggy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "34DF0F9A58A6296D"
+		tasks: [{
+			id: "259FD7063CDA7785"
+			type: "item"
+			item: "losttrinkets:magneto"
+		}]
+	}]
+}

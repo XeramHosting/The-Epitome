@@ -1,0 +1,36 @@
+{
+  "flower": "tag:forge:storage_blocks/iron",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "epitome/iron_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#ffcc99",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "emendatusenigmatica:iron_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "emendatusenigmatica:iron_ore",
+    "mainOutputWeight": 0.60,
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Coal",
+    "parent2": "Rock",
+    "feedItem": "tag:forge:storage_blocks/iron",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

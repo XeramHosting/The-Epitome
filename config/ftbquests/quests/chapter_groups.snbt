@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "2B6C2CBF9E7D9DFC", title: "The Journey Begins" }
+		{ id: "51A320C9295B1062", title: "Sage's Codex" }
+		{ id: "233C7C1A11DB79AC", title: "Arcane Eternity" }
+		{ id: "7099C92AEC3F33C0", title: "Engineer's Anthology" }
+	]
+}

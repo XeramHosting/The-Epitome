@@ -1,0 +1,11 @@
+{
+    "name": "Blazing Archwood",
+    "colors": [
+      "aa0f01",
+      "720000"
+    ],
+    "ingredient": {
+      "item": "ars_nouveau:red_archwood_log"
+    },
+    "inUltimateSingularity": false
+  }

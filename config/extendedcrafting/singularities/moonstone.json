@@ -1,0 +1,11 @@
+{
+    "name": "Moon Stone",
+    "colors": [
+      "595659",
+      "3a383a"
+    ],
+    "ingredient": {
+      "item": "boss_tools:moon_stone"
+    },
+    "inUltimateSingularity": true
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Cascading Archwood",
+    "colors": [
+      "0096FF",
+      "0096FF"
+    ],
+    "ingredient": {
+        "item": "ars_nouveau:blue_archwood_log"
+      },
+      "inUltimateSingularity": false
+  }

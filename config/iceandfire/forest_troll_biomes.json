@@ -1,0 +1,26 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:mutant_agate_wildwood"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:shining_grove"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:pink_agate_forest"
+      }
+
+    ]
+  ]
+}

@@ -1,0 +1,300 @@
+{
+	id: "62B4CB64471C56AC"
+	group: "51A320C9295B1062"
+	order_index: 0
+	filename: "hephaestus_forge"
+	title: "Hephaestus' Forge"
+	icon: {
+		id: "tconstruct:tinkers_anvil"
+		Count: 1b
+		tag: {
+			texture: "minecraft:netherite_block"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.2d
+			y: 1.6d
+			dependencies: ["6F2AF2F2F6E03337"]
+			id: "7E8A26B9E77C4F1B"
+			tasks: [
+				{
+					id: "5079251E27766D66"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "5AE3D55142A7F656"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "35548B2095D68BE5"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "6CA42E7528A24A6A"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "6630C44647D99761"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "428E273695E726D2"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "5EEBB5F4B7E30202"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 18L
+				}
+			]
+			rewards: [{
+				id: "5C81F41449933F10"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 16
+			}]
+		}
+		{
+			x: -1.2d
+			y: -1.4d
+			dependencies: [
+				"325ADB8D60FAF7BA"
+				"17B3A6F0B005C754"
+				"25886697139A1993"
+			]
+			id: "5CD00BF4D6CB5D10"
+			tasks: [{
+				id: "7EA6B3D825C3AFD0"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32L
+			}]
+			rewards: [{
+				id: "5BE8DB2D00921259"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32
+			}]
+		}
+		{
+			x: -2.4d
+			y: -2.4d
+			id: "325ADB8D60FAF7BA"
+			tasks: [{
+				id: "18308EA514DD9819"
+				type: "item"
+				item: "minecraft:sand"
+				count: 16L
+			}]
+			rewards: [{
+				id: "342659B7AE81316D"
+				type: "item"
+				item: "minecraft:sand"
+				count: 16
+			}]
+		}
+		{
+			x: -1.2d
+			y: -2.4d
+			id: "17B3A6F0B005C754"
+			tasks: [{
+				id: "2826888EDEFEA2CD"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16L
+			}]
+			rewards: [{
+				id: "482B5C520A687FB7"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.4d
+			id: "25886697139A1993"
+			tasks: [{
+				id: "65EA3D3EE5620F91"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2FA4890DA2678B3A"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 16
+			}]
+		}
+		{
+			x: -1.2d
+			y: -0.4d
+			dependencies: ["5CD00BF4D6CB5D10"]
+			id: "4E6305CAD1C7F0F0"
+			tasks: [{
+				id: "22B380494C40948B"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 64L
+			}]
+			rewards: [{
+				id: "279AC6D40EA0D486"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 32
+			}]
+		}
+		{
+			x: -1.2d
+			y: 0.6d
+			dependencies: ["4E6305CAD1C7F0F0"]
+			id: "6F2AF2F2F6E03337"
+			tasks: [
+				{
+					id: "37261482F6483108"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "7D2F487F9FA60D77"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "103E0F3D53272A7A"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "0DAC5BCC25AC8456"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+			rewards: [{
+				id: "41D0D099411E96E0"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: -2.4d
+			y: 0.6d
+			dependencies: ["4798A523D27853B3"]
+			id: "2B10BD1A1FC43A98"
+			tasks: [
+				{
+					id: "7841EC3BFA2CC264"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					weak_nbt_match: true
+				}
+				{
+					id: "4708BD03DC619929"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_log"
+						}
+					}
+					weak_nbt_match: true
+				}
+				{
+					id: "6A924E5891139793"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					weak_nbt_match: true
+				}
+			]
+			rewards: [{
+				id: "18E1C91AA0E1A650"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+		}
+		{
+			x: -2.4d
+			y: -0.4d
+			id: "4798A523D27853B3"
+			tasks: [{
+				id: "483C227FDA7FF748"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3BE35CC8E7E2FDE4"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 8
+			}]
+		}
+		{
+			x: -2.4d
+			y: 1.6d
+			dependencies: ["2B10BD1A1FC43A98"]
+			id: "4FD265FE4636176E"
+			tasks: [{
+				id: "0366585A67C12BD0"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "minecraft:netherite_block"
+					}
+				}
+				weak_nbt_match: true
+			}]
+		}
+		{
+			x: 3.4d
+			y: -2.4d
+			id: "23D8D42DF45F2CA9"
+			tasks: [{
+				id: "570C68D6531BCD95"
+				type: "checkmark"
+				title: "Silent but Deadly"
+			}]
+			rewards: [{
+				id: "6BAD68D44FAD7CCF"
+				type: "item"
+				item: {
+					id: "silentgear:blueprint_package"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "silentgear:starter_blueprints"
+						}
+					}
+				}
+			}]
+		}
+	]
+}

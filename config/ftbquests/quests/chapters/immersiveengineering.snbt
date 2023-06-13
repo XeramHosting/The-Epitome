@@ -1,0 +1,661 @@
+{
+	id: "0000000000000547"
+	group: "7099C92AEC3F33C0"
+	order_index: 0
+	filename: "immersiveengineering"
+	title: "Mechanic's Manifesto"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.4d
+			y: -2.2d
+			shape: "diamond"
+			subtitle: "The Engineer's Screwdriver is a common item in your toolbox, which you'll need to do precise configuration on certain pieces of machinery."
+			optional: true
+			id: "000000000000054E"
+			tasks: [{
+				id: "000000000000054F"
+				type: "item"
+				item: "immersiveengineering:screwdriver"
+			}]
+		}
+		{
+			title: "Coke Oven"
+			x: -12.8d
+			y: -3.2d
+			shape: "rsquare"
+			subtitle: "x27 Coke Bricks are needed to form the Coke Oven. Simply place down the bricks in a 3x3x3 cube. Then right click the cube with the Engineer's Hammer."
+			description: [
+				" "
+				""
+			]
+			id: "0000000000000550"
+			tasks: [{
+				id: "0000000000000551"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			title: "Blast Furnace"
+			x: -10.8d
+			y: -7.0d
+			shape: "rsquare"
+			subtitle: "x27 Blast Bricks are needed to form the Blast Furnace. Simply place down the bricks in a 3x3x3 cube. Then right click the cube with the Engineer's Hammer."
+			id: "0000000000000552"
+			tasks: [{
+				id: "0000000000000553"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: -10.8d
+			y: -0.2d
+			shape: "pentagon"
+			subtitle: "Industrial Hemp, useful for the creation of Biodiesel, the hemp fibers are also used for the creation of Tough Fabric."
+			description: [
+				" "
+				" "
+				""
+			]
+			id: "0000000000000556"
+			tasks: [
+				{
+					id: "0000000000000557"
+					type: "item"
+					item: "immersiveengineering:hemp_fiber"
+				}
+				{
+					id: "0000000000000558"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+			]
+			rewards: [{
+				id: "00000000000008C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -9.8d
+			y: -0.2d
+			subtitle: "Tough Fabric is used in the creation of the Improved Windmill Blade \\& Insulated Cables."
+			dependencies: ["0000000000000556"]
+			id: "0000000000000559"
+			tasks: [{
+				id: "000000000000055A"
+				type: "item"
+				item: "immersiveengineering:hemp_fabric"
+			}]
+		}
+		{
+			title: "Steel Ingot"
+			x: -9.6d
+			y: -6.4d
+			subtitle: "Steel is produced by putting Iron Ingots into the Blast Furnace. And by using Charcoal / Coal Coke as fuel."
+			dependencies: ["0000000000000552"]
+			id: "000000000000055B"
+			tasks: [{
+				id: "000000000000055C"
+				type: "item"
+				title: "Any forge:ingots/steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.8d
+			y: -0.2d
+			subtitle: "The item Windmill Sail can be used on a Windmill by right-clicking with the item in hand on the Windmill."
+			description: [""]
+			dependencies: ["0000000000000559"]
+			id: "000000000000055D"
+			tasks: [{
+				id: "000000000000055E"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+			}]
+		}
+		{
+			x: -11.8d
+			y: -3.2d
+			subtitle: "Acquire a bucket of Creosote Oil"
+			dependencies: ["0000000000000550"]
+			id: "000000000000055F"
+			tasks: [{
+				id: "0000000000000560"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			title: "Treated Wood Planks"
+			x: -10.8d
+			y: -3.1999999999999993d
+			dependencies: ["000000000000055F"]
+			id: "0000000000000561"
+			tasks: [{
+				id: "0000000000000562"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8L
+			}]
+		}
+		{
+			x: -8.8d
+			y: -2.2d
+			subtitle: "Windmill Blades are used to create the Windmill. x8 of them are needed for each Windmill."
+			dependencies: ["0000000000000561"]
+			id: "0000000000000565"
+			tasks: [{
+				id: "0000000000000566"
+				type: "item"
+				item: "immersiveengineering:windmill_blade"
+				count: 8L
+			}]
+		}
+		{
+			x: -8.8d
+			y: -1.2d
+			subtitle: "The Windmill is able to produce a pretty decent amount of FE. The amount of FE produced depends on what altitude the Windmill is located at, and if it's raining or not."
+			description: [" "]
+			dependencies: ["0000000000000565"]
+			id: "0000000000000567"
+			tasks: [{
+				id: "0000000000000568"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			x: -8.8d
+			y: -4.2d
+			subtitle: "Waterwheel Segments are used to create the Water Wheel. x4 of them are needed for each Water Wheel."
+			dependencies: ["0000000000000561"]
+			id: "0000000000000569"
+			tasks: [{
+				id: "000000000000056A"
+				type: "item"
+				item: "immersiveengineering:waterwheel_segment"
+				count: 4L
+			}]
+		}
+		{
+			x: -8.8d
+			y: -5.2d
+			subtitle: "The Water Wheels are able to produce a good amount of FE, a max total of 3 water wheel can be put side by side."
+			dependencies: [
+				"0000000000000569"
+				"000000000000055B"
+			]
+			id: "000000000000056B"
+			tasks: [{
+				id: "000000000000056C"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: -4.4d
+			y: -5.2d
+			shape: "pentagon"
+			subtitle: "The Engineer's Wire Cutters is a tool used to disconnect the corresponding Wire Coil. It also has its uses in different recipes."
+			id: "000000000000056F"
+			tasks: [{
+				id: "0000000000000570"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Wire Connectors"
+			x: -4.4d
+			y: -3.2d
+			subtitle: "Wire Connectors are used to input and output Energy (FE) from Wire Coils."
+			id: "0000000000000579"
+			tasks: [
+				{
+					id: "000000000000057A"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "000000000000057B"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "000000000000057C"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+			]
+		}
+		{
+			x: -4.4d
+			y: -2.2d
+			subtitle: "The Wire Relays are used to relay (connect) Wire Coils."
+			id: "000000000000057D"
+			tasks: [
+				{
+					id: "000000000000057E"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "000000000000057F"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+				{
+					id: "0000000000000580"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+			]
+		}
+		{
+			x: -3.4d
+			y: -3.1999999999999997d
+			subtitle: "The Kinetic Dynamo generates Energy (FE) using a Windmill, Water Wheel, or Improved Windmill."
+			dependencies: ["0000000000000589"]
+			id: "0000000000000581"
+			tasks: [{
+				id: "0000000000000582"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: -3.4d
+			y: -5.2d
+			subtitle: "Wire Coils are used with Wire Connectors to power different blocks."
+			dependencies: ["000000000000056F"]
+			id: "0000000000000583"
+			tasks: [{
+				id: "0000000000000584"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+		}
+		{
+			x: -2.4d
+			y: -5.2d
+			subtitle: "Wire Coils are used with Wire Connectors to power different blocks."
+			dependencies: ["000000000000056F"]
+			id: "0000000000000585"
+			tasks: [{
+				id: "0000000000000586"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -5.2d
+			subtitle: "Wire Coils are used with Wire Connectors to power different blocks."
+			dependencies: ["000000000000056F"]
+			id: "0000000000000587"
+			tasks: [{
+				id: "0000000000000588"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+		}
+		{
+			x: -3.4d
+			y: -4.2d
+			subtitle: "Craft a Copper Coil Block"
+			dependencies: ["0000000000000583"]
+			id: "0000000000000589"
+			tasks: [{
+				id: "000000000000058A"
+				type: "item"
+				item: "immersiveengineering:coil_lv"
+			}]
+		}
+		{
+			x: -3.4d
+			y: -6.2d
+			subtitle: "A safer version of the LV Wire Coil. This Wire Coil won't zap you if you get too close."
+			dependencies: ["0000000000000583"]
+			id: "0000000000000591"
+			tasks: [{
+				id: "0000000000000592"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				count: 4L
+			}]
+		}
+		{
+			x: -2.4d
+			y: -6.2d
+			subtitle: "A safer version of the MV Wire Coil. This Wire Coil won't zap you if you get too close."
+			dependencies: ["0000000000000585"]
+			id: "0000000000000593"
+			tasks: [{
+				id: "0000000000000594"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+				count: 4L
+			}]
+		}
+		{
+			x: -9.8d
+			y: -3.2d
+			subtitle: "Craft an Engineer's Workbench"
+			dependencies: ["0000000000000561"]
+			id: "0000000000000597"
+			tasks: [{
+				id: "0000000000000598"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			title: "Any Engineer's Blueprint"
+			x: -6.8d
+			y: -3.2d
+			subtitle: "Craft any Engineer's Blueprint"
+			dependencies: ["0000000000000597"]
+			id: "00000000000005A7"
+			tasks: [{
+				id: "00000000000005A8"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.6d
+			y: -3.2d
+			subtitle: "These molds can be used in the Metal Press machine to easily produce Gears, Plates, Rods \\& Wires."
+			dependencies: ["0000000000000597"]
+			id: "00000000000005A9"
+			tasks: [
+				{
+					id: "00000000000005AA"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "0000000000000756"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "0000000000000757"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "0000000000000758"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+		}
+		{
+			title: "Improved Blast Furnace"
+			x: -9.6d
+			y: -7.6d
+			subtitle: "x27 Reinforced Blast Bricks \\& 1 Hopper are needed to form the Improved Blast Furnace. Simply place down the Reinforced Blast Bricks in a 3x3x3 cube with a hopper ontop in the middle. Then right click the cube with the Engineer's Hammer."
+			dependencies: ["0000000000000552"]
+			id: "00000000000005B1"
+			tasks: [
+				{
+					id: "00000000000005B2"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "00000000000005B3"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			title: "Blast Furnace Preheaters"
+			x: -8.4d
+			y: -7.6d
+			subtitle: "The Blast Furnace preheaters are used to speed up the Improved Blast Furnace using Energy (FE)."
+			dependencies: [
+				"00000000000005B1"
+				"00000000000005B8"
+			]
+			id: "00000000000005B6"
+			tasks: [{
+				id: "00000000000005B7"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+				count: 2L
+			}]
+		}
+		{
+			x: -2.4d
+			y: -4.2d
+			subtitle: "Craft an External Heater"
+			dependencies: ["0000000000000589"]
+			id: "00000000000005B8"
+			tasks: [{
+				id: "00000000000005B9"
+				type: "item"
+				item: "immersiveengineering:furnace_heater"
+			}]
+		}
+		{
+			x: -7.8d
+			y: -2.2d
+			subtitle: "The LV Capacitor is a block that can store energy (FE). It can store up to 100,000 FE."
+			dependencies: ["0000000000000561"]
+			id: "00000000000005BA"
+			tasks: [{
+				id: "00000000000005BB"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: -7.8d
+			y: -1.2000000000000002d
+			subtitle: "The MV Capacitor is a block that can store energy (FE). It can store up to 1,000,000 FE."
+			dependencies: ["0000000000000561"]
+			id: "00000000000005BC"
+			tasks: [{
+				id: "00000000000005BD"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+		}
+		{
+			x: -7.8d
+			y: -0.20000000000000018d
+			subtitle: "The HV Capacitor is a block that can store energy (FE). It can store up to 4,000,000 FE."
+			dependencies: ["0000000000000561"]
+			id: "00000000000005BE"
+			tasks: [{
+				id: "00000000000005BF"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+		}
+		{
+			x: -3.4d
+			y: -2.2d
+			shape: "octagon"
+			subtitle: "The Engineer's Volt meter can be used to measure how much Energy (FE) is stored in a Capacitor."
+			optional: true
+			id: "00000000000005C0"
+			tasks: [{
+				id: "00000000000005C1"
+				type: "item"
+				item: "immersiveengineering:voltmeter"
+			}]
+		}
+		{
+			x: -7.8d
+			y: -4.2d
+			subtitle: "The Charging Station is a block that can be used to charge different items that require Energy (FE) to work."
+			dependencies: [
+				"0000000000000589"
+				"0000000000000561"
+			]
+			id: "00000000000005C2"
+			tasks: [{
+				id: "00000000000005C3"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+		}
+		{
+			x: -2.4d
+			y: -3.1999999999999997d
+			subtitle: "The Thermoelectric Generator generates Energy (FE) through the difference in temperature between blocks/liquids adjacent to it."
+			description: [
+				" "
+				""
+			]
+			dependencies: ["0000000000000589"]
+			id: "00000000000005C4"
+			tasks: [{
+				id: "00000000000005C5"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+		}
+		{
+			x: -6.8d
+			y: -2.2d
+			subtitle: "The Garden Cloche is a machine used to grow crops placed in it."
+			description: [""]
+			dependencies: ["0000000000000597"]
+			optional: true
+			id: "00000000000005C6"
+			tasks: [{
+				id: "00000000000005C7"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+		}
+		{
+			title: "Alloy Kiln"
+			x: -10.8d
+			y: -5.8d
+			shape: "rsquare"
+			subtitle: "x8 Kiln Bricks are needed to form the Alloy Kiln. Simply place down the bricks in a 2x2 cube. Then right click the cube with the Engineer's Hammer."
+			id: "00000000000005C8"
+			tasks: [{
+				id: "00000000000005C9"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			title: "Metal Press Multiblock"
+			x: -7.0d
+			y: -5.2d
+			subtitle: "The Metal Press is a 3x1x3 multi-block. It is used to create Plates, Rods \\& Gears."
+			dependencies: ["000000000000055B"]
+			id: "00000000000005CA"
+			tasks: [
+				{
+					id: "00000000000005CD"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "00000000000005CE"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "00000000000005CF"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "00000000000005D0"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "00000000000005D1"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Crusher Multiblock"
+			x: -6.2d
+			y: -6.4d
+			subtitle: "The Crusher is a 3x5x3 multi-block It is used for crushing Ores into Grit (Dusts)."
+			dependencies: ["000000000000055B"]
+			id: "00000000000005D2"
+			tasks: [
+				{
+					id: "00000000000005D4"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "00000000000005D5"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "00000000000005D6"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+				{
+					id: "00000000000005D7"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "00000000000005D8"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+		}
+	]
+}

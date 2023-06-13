@@ -1,0 +1,80 @@
+{
+	id: "301C5C52AC42678E"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Luminary Genesis"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome!"
+			icon: "minecraft:nether_star"
+			x: 0.0d
+			y: -16.6d
+			subtitle: "Information"
+			description: [
+				"Welcome to The Epitome! It is awesome that you could join us. <3"
+				""
+				"The questline is currently in very very very early stages."
+				""
+				""
+				"Good Luck!"
+			]
+			id: "150F4ACF7470A5D3"
+			tasks: [{
+				id: "49F45CDA5C8E3E45"
+				type: "checkmark"
+				title: "The begining"
+			}]
+		}
+		{
+			title: "Akashic Tome"
+			icon: "akashictome:tome"
+			x: 0.0d
+			y: -15.0d
+			subtitle: "Your guide to everything"
+			description: [
+				"This quest provides you with your first Akashic Tome."
+				"It can hold nearly every guide book in-game."
+				"You'll find and create these guides through your journeys. Make sure to converge them into the tome so that you never have to look for them."
+			]
+			dependencies: ["150F4ACF7470A5D3"]
+			id: "35773738256DB30E"
+			tasks: [{
+				id: "3BF4A9A9EC0F432F"
+				type: "checkmark"
+				title: "Akashik Tome"
+			}]
+			rewards: [{
+				id: "4DE25CDB846202DD"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+		}
+		{
+			icon: "enigmaticlegacy:cursed_ring"
+			x: -1.6d
+			y: -16.6d
+			subtitle: "This ring will ruin you"
+			description: [
+				"DISCLAIMER:"
+				"This ring comes with 7 negative and 7 positive effects. Please read through them carefully before putting the ring on."
+				"Once you put the ring on you cannot take it off without completing the ritual. This is not a simple process. Everything will be out to kill you."
+			]
+			dependencies: ["150F4ACF7470A5D3"]
+			id: "4DE97850F7B55369"
+			tasks: [{
+				id: "6F34C4467F5A561B"
+				type: "checkmark"
+				title: "Seven Pounds"
+			}]
+			rewards: [{
+				id: "0D50C252ADF15282"
+				type: "item"
+				item: "enigmaticlegacy:cursed_ring"
+			}]
+		}
+	]
+}

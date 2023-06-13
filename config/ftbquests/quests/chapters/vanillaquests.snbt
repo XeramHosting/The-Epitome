@@ -1,0 +1,425 @@
+{
+	id: "000000000000102A"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 0
+	filename: "vanillaquests"
+	title: "Cobblestone Chronicles"
+	icon: "minecraft:oak_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Getting Wood"
+			icon: "minecraft:oak_log"
+			x: -3.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Punch a tree until a block of wood pops out."
+			id: "000000000000102B"
+			tasks: [{
+				id: "000000000000102C"
+				type: "item"
+				title: "Any minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "19EE4D47663D6970"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Acquire cobblestone."
+			dependencies: ["0000000000000142"]
+			id: "000000000000102E"
+			tasks: [{
+				id: "000000000000102F"
+				type: "advancement"
+				title: "Stone Age"
+				icon: "minecraft:cobblestone"
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0152F42827C70FC2"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Construct a Stone Pickaxe."
+			description: [""]
+			dependencies: ["000000000000102E"]
+			optional: true
+			id: "0000000000001030"
+			tasks: [{
+				id: "0000000000001031"
+				type: "advancement"
+				title: "Getting an Upgrade"
+				icon: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "220F30D8227A0C4C"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Smelt an iron ingot."
+			dependencies: ["0000000000001030"]
+			id: "0000000000001032"
+			tasks: [{
+				id: "0000000000001033"
+				type: "advancement"
+				title: "Acquire Hardware"
+				icon: "minecraft:iron_ingot"
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "235514105DC060C4"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Construct an Iron Pickaxe. - Upgrade your pickaxe."
+			dependencies: ["0000000000001032"]
+			optional: true
+			id: "0000000000001034"
+			tasks: [{
+				id: "0000000000001035"
+				type: "advancement"
+				title: "Isn't It Iron Pick"
+				icon: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "61EEE2067C8C5404"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Fill a bucket with lava."
+			dependencies: ["0000000000001032"]
+			id: "0000000000001036"
+			tasks: [{
+				id: "0000000000001037"
+				type: "advancement"
+				title: "Hot Stuff"
+				icon: "minecraft:lava_bucket"
+				advancement: "minecraft:story/lava_bucket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "320C688D7572FA62"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Acquire some shiny diamonds."
+			dependencies: ["0000000000001034"]
+			id: "0000000000001038"
+			tasks: [{
+				id: "0000000000000028"
+				type: "advancement"
+				title: "Diamonds!"
+				icon: "minecraft:diamond"
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0D024C53E267FCFE"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Deflect a projectile with a shield."
+			dependencies: ["0000000000001032"]
+			id: "000000000000002F"
+			tasks: [{
+				id: "000000000000103B"
+				type: "advancement"
+				title: "Not Today, Thank You"
+				icon: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "20A3B437C5AB26F8"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			title: "Hot Topic"
+			icon: "minecraft:furnace"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Construct a Furnace, a really hot topic!"
+			dependencies: ["000000000000102E"]
+			id: "0000000000000100"
+			tasks: [{
+				id: "0000000000000101"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "294F1D5BF0066498"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			title: "It Is A Diamond Pick"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Construct a Diamond Pickaxe. - Upgrade your Pickaxe once again."
+			dependencies: ["0000000000001038"]
+			optional: true
+			id: "000000000000010D"
+			tasks: [{
+				id: "000000000000010E"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6FF9400AEE246E27"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Construct a Crafting Table."
+			dependencies: ["000000000000102B"]
+			id: "0000000000000142"
+			tasks: [{
+				id: "0000000000000143"
+				type: "item"
+				title: "Benchmarking"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "1BEED80E51EBE883"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			title: "Iron Man"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Construct a full set of Iron Armor."
+			dependencies: ["0000000000001032"]
+			optional: true
+			id: "0000000000000147"
+			tasks: [
+				{
+					id: "0000000000000148"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000149"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014A"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7C96366514B5139C"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			title: "Shiny Jewelry"
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Construct a full set of Diamond Armor."
+			description: [" "]
+			dependencies: ["0000000000001038"]
+			optional: true
+			id: "000000000000014C"
+			tasks: [
+				{
+					id: "000000000000014D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014E"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000014F"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000150"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "56B05589A5B8713A"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			title: "Blasting"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Construct a Blast Furnace."
+			description: [
+				"This is an upgrade to the furnace, it smelts items twice as fast."
+				" "
+				"However it'll only smelt Ores \\& some other items."
+				" "
+			]
+			dependencies: ["0000000000000100"]
+			id: "0000000000000151"
+			tasks: [{
+				id: "0000000000000152"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "67029915459F173C"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+		{
+			title: "Smoking"
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Construct a Smoker. An upgrade to the Furnace, cooks food twice as fast."
+			description: ["&7Rewards: 1 EXP Level \\& 3x Carrot &7Bread"]
+			dependencies: ["0000000000000100"]
+			id: "0000000000000153"
+			tasks: [{
+				id: "0000000000000154"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "272636298180DEF0"
+				type: "random"
+				table_id: 4941563567790767242L
+			}]
+		}
+	]
+}

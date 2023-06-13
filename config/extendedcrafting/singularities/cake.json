@@ -1,0 +1,7 @@
+{
+    "name": "Cake",
+    "colors": ["95481A", "95481A"],
+    "ingredient": {
+        "item": "farmersdelight:cake_slice"
+    }
+}

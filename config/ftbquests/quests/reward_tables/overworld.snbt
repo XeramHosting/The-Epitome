@@ -1,0 +1,23 @@
+{
+	id: "4493F5E2252E3C8A"
+	order_index: 0
+	title: "Overworld"
+	icon: {
+		id: "inventorypets:pet_loot"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_log", count: 64, weight: 10 }
+		{ item: "minecraft:experience_bottle", count: 64, weight: 3 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 8 }
+		{ item: "minecraft:redstone", count: 64, weight: 6 }
+		{ item: "minecraft:lapis_lazuli", count: 64, weight: 5 }
+		{ item: "minecraft:diamond", count: 8, weight: 4 }
+		{ item: "minecraft:emerald", count: 4, weight: 3 }
+		{ item: "minecraft:gold_ingot", count: 16, weight: 7 }
+	]
+}

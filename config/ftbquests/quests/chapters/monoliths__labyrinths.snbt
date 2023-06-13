@@ -1,0 +1,28 @@
+{
+	id: "5B40256ADF8441E4"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 3
+	filename: "monoliths__labyrinths"
+	title: "Monoliths and Labyrinths"
+	icon: {
+		id: "explorerscompass:explorerscompass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: -1.2d
+		id: "64F416D02C55945A"
+		tasks: [{
+			id: "61CB218CFEC58AA1"
+			type: "item"
+			item: {
+				id: "explorerscompass:explorerscompass"
+				Count: 1b
+				tag: { }
+			}
+		}]
+	}]
+}

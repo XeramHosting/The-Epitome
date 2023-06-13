@@ -1,0 +1,111 @@
+{
+	id: "11287C6D68101393"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 4
+	filename: "voyage_of_diverse_realms_2"
+	title: "Voyage of Diverse Realms"
+	icon: "atum:portal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.4d
+			y: -1.4d
+			subtitle: "The beginning of the End."
+			id: "2C3CA33D6F095648"
+			tasks: [{
+				id: "537A02FFDB748FDD"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -1.4d
+			subtitle: "Ever been to the Aether?"
+			id: "672F289091BCBF25"
+			tasks: [{
+				id: "290861CBE7CF6AA2"
+				type: "dimension"
+				dimension: "aerialhell:aerial_hell"
+			}]
+		}
+		{
+			x: 0.6d
+			y: -1.4d
+			subtitle: "Raiders of the Lost Ark"
+			id: "165340FD334E8967"
+			tasks: [{
+				id: "10D15BA99E78CEE5"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+		}
+		{
+			x: -0.4d
+			y: -0.4d
+			subtitle: "The End?"
+			id: "7B18F1278E3FCAAC"
+			tasks: [{
+				id: "4A1B3A49045CB355"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -0.4d
+			id: "0F8114B6466AEA30"
+			tasks: [{
+				id: "480928564F14F257"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+		}
+		{
+			x: 0.6d
+			y: -0.4d
+			id: "05C9D6E8DB617038"
+			tasks: [{
+				id: "110B02C04EC1EF5B"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+		}
+		{
+			x: -1.4d
+			y: 0.6d
+			subtitle: "The Lost City of Ratlantis!"
+			id: "1B372996DFE7A7B3"
+			tasks: [{
+				id: "5A3132DBCC5D4E4E"
+				type: "dimension"
+				dimension: "rats:ratlantis"
+			}]
+		}
+		{
+			x: 0.6d
+			y: 0.6d
+			subtitle: "Not to be confused with Alfheim!"
+			description: ["If you're looking for Dragons this is where you'll find them."]
+			id: "21E1830FF5E7128E"
+			tasks: [{
+				id: "1D9E9062CE42AA84"
+				type: "dimension"
+				dimension: "gaiadimension:gaia_dimension"
+			}]
+		}
+		{
+			x: -0.4d
+			y: 0.6d
+			subtitle: "Ever wanted to walk into a Botania Portal?"
+			dependencies: ["3A120DF10A86645A"]
+			id: "65485A48AC3651DE"
+			tasks: [{
+				id: "43DB8D7187D72A4D"
+				type: "dimension"
+				dimension: "mythicbotany:alfheim"
+			}]
+		}
+	]
+}

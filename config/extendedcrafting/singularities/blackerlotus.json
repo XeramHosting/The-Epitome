@@ -1,0 +1,11 @@
+{
+    "name": "Blacker Lotus",
+    "colors": [
+      "090d13",
+      "000000"
+    ],
+    "ingredient": {
+      "item": "botania:blacker_lotus"
+    },
+    "inUltimateSingularity": false
+  }

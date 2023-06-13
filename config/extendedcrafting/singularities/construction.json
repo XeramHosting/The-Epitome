@@ -1,0 +1,7 @@
+{
+    "name": "Dense Construction Block",
+    "colors": ["7D7B78", "7D7B78"],
+    "ingredient": {
+        "item": "buildinggadgets:construction_block_dense"
+    }
+}

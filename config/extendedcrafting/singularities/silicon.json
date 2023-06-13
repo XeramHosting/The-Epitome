@@ -1,0 +1,7 @@
+{
+    "name": "Silicon",
+    "colors": ["57525B", "E4E1E3"],
+    "ingredient": {
+        "item": "#forge:gems/silicon"
+    }
+}

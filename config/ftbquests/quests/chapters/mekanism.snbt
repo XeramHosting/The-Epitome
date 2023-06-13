@@ -1,0 +1,2165 @@
+{
+	id: "0000000000000176"
+	group: "7099C92AEC3F33C0"
+	order_index: 1
+	filename: "mekanism"
+	title: "Particle Paradigm"
+	icon: "mekanismgenerators:advanced_solar_generator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -10.0d
+			y: -2.2d
+			subtitle: "Create Enriched Alloy"
+			description: [
+				"The most basic item which most Mekanism machines and generators use. Crafted in the Metallurgic Infuser by infusing an Iron Ingot with Redstone, Redstone Blocks, or Compressed Redstone."
+				" "
+			]
+			dependencies: ["0000000000000246"]
+			id: "0000000000000192"
+			tasks: [{
+				id: "0000000000000193"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -3.2d
+			subtitle: "Create Reinforced Alloy"
+			description: [
+				"Upgraded version of the Enriched Alloy which some Mekanism machines and items use. Crafted in the Metallurgic Infuser by infusing an Enriched Alloy with Diamond Dust or Compressed Diamond."
+				" "
+			]
+			dependencies: ["0000000000000192"]
+			id: "0000000000000194"
+			tasks: [{
+				id: "0000000000000195"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.2d
+			subtitle: "Create Atomic Alloy"
+			description: [
+				"Upgraded version of the Reinforced Alloy which some Mekanism machines and items use. Crafted in the Metallurgic Infuser by infusing a Reinforced Alloy with Refined Obsidian Dust or Compressed Obsidian."
+				" "
+			]
+			dependencies: [
+				"0000000000000194"
+				"0000000000000266"
+			]
+			id: "0000000000000196"
+			tasks: [{
+				id: "0000000000000197"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: -11.8d
+			y: -2.2d
+			shape: "square"
+			subtitle: "Create a Basic Control Circuit"
+			description: [
+				"The Basic Control Circuit is a Crafting Component used in the creation of multiple lower-tier machines."
+				" "
+			]
+			dependencies: ["0000000000000246"]
+			id: "0000000000000198"
+			tasks: [{
+				id: "0000000000000199"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: -11.8d
+			y: -3.2d
+			subtitle: "Create a Advanced Control Circuit"
+			description: [
+				"An upgraded Basic Control Circuit, used in many tier 2 machines and items."
+				" "
+			]
+			dependencies: [
+				"0000000000000198"
+				"0000000000000192"
+			]
+			id: "000000000000019A"
+			tasks: [{
+				id: "000000000000019B"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: -11.8d
+			y: -4.2d
+			subtitle: "Create a Elite Control Circuit"
+			description: [
+				"An upgraded Advanced Control Circuit, used in many tier 3 machines and items."
+				" "
+			]
+			dependencies: [
+				"000000000000019A"
+				"0000000000000194"
+			]
+			id: "000000000000019C"
+			tasks: [{
+				id: "000000000000019D"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: -11.8d
+			y: -5.2d
+			subtitle: "Create a Ultimate Control Circuit"
+			description: [
+				"An upgraded Elite Control Circuit, used in many tier 4 machines and items."
+				" "
+			]
+			dependencies: [
+				"000000000000019C"
+				"0000000000000196"
+			]
+			id: "000000000000019E"
+			tasks: [{
+				id: "000000000000019F"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			subtitle: "Create Enriched Carbon"
+			description: [
+				"Enriched Carbon is used in the Metallurgic Infuser."
+				" "
+				"Enriched Carbon yields 80 units of carbon in the infuser, the same as 8 coal or 4 charcoal."
+				" "
+			]
+			dependencies: ["000000000000023E"]
+			size: 0.9d
+			optional: true
+			id: "00000000000001A0"
+			tasks: [{
+				id: "361F5E3A0E13E4D1"
+				type: "item"
+				item: "mekanism:enriched_carbon"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Create Enriched Redstone"
+			description: [
+				"Enriched Redstone is used in the Metallurgic Infuser."
+				" "
+				"Enriched Redstone yields 80 units of redstone in the Metallurgic Infuser, the same as 8 redstone."
+				" "
+			]
+			dependencies: ["000000000000023E"]
+			size: 0.9d
+			optional: true
+			id: "00000000000001A2"
+			tasks: [{
+				id: "00000000000001A3"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			subtitle: "Create Enriched Diamond"
+			description: [
+				"Enriched Diamond is used in the Metallurgic Infuser."
+				" "
+				"Enriched Diamond yields 80 units of diamond in the Metallurgic Infuser, the same as 8 diamonds."
+				""
+			]
+			dependencies: ["000000000000023E"]
+			size: 0.9d
+			optional: true
+			id: "00000000000001A4"
+			tasks: [{
+				id: "00000000000001A5"
+				type: "item"
+				item: "mekanism:enriched_diamond"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			subtitle: "Create Enriched Obsidian"
+			description: [
+				"Enriched Obsidian is used in the Metallurgic Infuser."
+				" "
+				"Enriched Obsidian yields 80 units of obsidian in the Metallurgic Infuser, the same as 8 Refined Obsidian Dust."
+				" "
+			]
+			dependencies: [
+				"0000000000000266"
+				"000000000000023E"
+			]
+			size: 0.9d
+			optional: true
+			id: "00000000000001A6"
+			tasks: [{
+				id: "00000000000001A7"
+				type: "item"
+				item: "mekanism:enriched_refined_obsidian"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			subtitle: "Create Enriched Tin"
+			description: [
+				"Enriched Tin is used in the Metallurgic Infuser."
+				" "
+				"Enriched Tin yields 80 units of tin in the Metallurgic Infuser, the same as 8 Tin Dust."
+				" "
+			]
+			dependencies: ["000000000000023E"]
+			size: 0.9d
+			optional: true
+			id: "00000000000001A8"
+			tasks: [{
+				id: "00000000000001A9"
+				type: "item"
+				item: "mekanism:enriched_tin"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Craft a Basic Fluid Tank"
+			description: [
+				"The Basic Fluid Tank can hold up to 14000mB of fluids. It can double as a bucket by switching its mode to bucket mode."
+				" "
+			]
+			id: "00000000000001AA"
+			tasks: [{
+				id: "00000000000001AB"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			subtitle: "Craft an Advanced Fluid Tank"
+			description: [
+				"The Advanced Fluid Tank can hold up to 28000mB of fluids which is double the amount of the Basic Fluid Tank. It can double as a bucket by switching its mode to bucket mode."
+				" "
+			]
+			dependencies: [
+				"00000000000001AA"
+				"0000000000000192"
+			]
+			id: "00000000000001AC"
+			tasks: [{
+				id: "00000000000001AD"
+				type: "item"
+				item: "mekanism:advanced_fluid_tank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			subtitle: "Craft an Elite Fluid Tank"
+			description: [
+				"The Elite Fluid Tank is an upgraded version of the Advanced Fluid Tank that can hold 56000 mB of liquid. You can toggle its Bucket Mode on and off by shift-right clicking while holding it."
+				" "
+				"When Bucket Mode is on it can collect water and lava like a bucket. When Bucket Mode is off it can be placed like a block so you can attach Mechanical Pipe to it."
+				" "
+			]
+			dependencies: [
+				"00000000000001AC"
+				"0000000000000194"
+			]
+			id: "00000000000001AE"
+			tasks: [{
+				id: "00000000000001AF"
+				type: "item"
+				item: "mekanism:elite_fluid_tank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			subtitle: "Craft an Ultimate Fluid Tank"
+			description: [
+				"The Ultimate Fluid Tank is an upgraded version of the Elite Fluid Tank that can hold 112000 mB of liquid. You can toggle its Bucket Mode on and off by shift-right clicking while holding it."
+				" "
+				"When Bucket Mode is on it can collect water and lava like a bucket. When Bucket Mode is off it can be placed like a block so you can attach Mechanical Pipe to it."
+				" "
+			]
+			dependencies: [
+				"00000000000001AE"
+				"0000000000000196"
+			]
+			id: "00000000000001B0"
+			tasks: [{
+				id: "00000000000001B1"
+				type: "item"
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			shape: "square"
+			subtitle: "Craft a Basic Energy Cube"
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems."
+				" "
+			]
+			dependencies: [
+				"00000000000001C8"
+				"000000000000027C"
+			]
+			id: "00000000000001B2"
+			tasks: [{
+				id: "00000000000001B3"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "Craft an Advanced Energy Cube"
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems."
+				" "
+				"&oAn upgraded version of the Basic Energy Cube."
+				""
+			]
+			dependencies: [
+				"00000000000001B2"
+				"0000000000000192"
+			]
+			id: "00000000000001B4"
+			tasks: [{
+				id: "00000000000001B5"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Craft an Elite Energy Cube"
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems."
+				" "
+				"&oAn upgraded version of the Advanced Energy Cube."
+				""
+			]
+			dependencies: [
+				"00000000000001B4"
+				"0000000000000194"
+			]
+			id: "00000000000001B6"
+			tasks: [{
+				id: "00000000000001B7"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			subtitle: "Craft an Ultimate Energy Cube"
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems."
+				" "
+				"&oAn upgraded version of the Elite Energy Cube."
+				""
+			]
+			dependencies: [
+				"00000000000001B6"
+				"0000000000000196"
+			]
+			id: "00000000000001B8"
+			tasks: [{
+				id: "00000000000001B9"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			shape: "circle"
+			subtitle: "Craft a Solar Generator"
+			description: [
+				"The Solar Generator harnesses sunlight to create power."
+				" "
+			]
+			dependencies: [
+				"00000000000001C8"
+				"0000000000000192"
+			]
+			size: 0.85d
+			id: "00000000000001BA"
+			tasks: [{
+				id: "00000000000001BB"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			subtitle: "Craft an Advanced Solar Generator."
+			description: [
+				"The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator."
+				" "
+				"Construction of an Advanced Solar Generator requires four Solar Generators, but it produces six times the power of its smaller cousin."
+				" "
+				"It also requires an area of 3x3x3 Blocks in order to be placed."
+				" "
+			]
+			dependencies: ["00000000000001BA"]
+			size: 0.85d
+			id: "00000000000001BC"
+			tasks: [{
+				id: "00000000000001BD"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			shape: "circle"
+			subtitle: "Craft a Wind Generator"
+			description: [
+				"A Wind Turbine's giant blades harness the force of the wind to generate power. Each Wind Turbine requires a fairly large 1x1x5 area."
+				" "
+				"The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky (over the rotor housing at the top of the tower)."
+				""
+			]
+			dependencies: [
+				"00000000000001C8"
+				"0000000000000198"
+				"0000000000000192"
+			]
+			size: 0.85d
+			id: "00000000000001BE"
+			tasks: [{
+				id: "00000000000001BF"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			subtitle: "Craft a Flamethrower"
+			description: [
+				"The Flamethrower is a ranged weapon which uses Hydrogen gas as its fuel. It is fairly effective against mobs as it deals damage when they are directly hit with the stream and sets them on fire."
+				""
+			]
+			dependencies: [
+				"00000000000001D6"
+				"000000000000019A"
+			]
+			size: 0.85d
+			optional: true
+			id: "00000000000001C0"
+			tasks: [{
+				id: "00000000000001C1"
+				type: "item"
+				item: "mekanism:flamethrower"
+			}]
+		}
+		{
+			x: -10.03d
+			y: -5.27d
+			subtitle: "Craft an Atomic Disassembler"
+			description: [
+				"The Atomic Disassembler is Mekanism's an all-in-one tool, essentially the ultimate, electronic version of the paxel."
+				" "
+			]
+			dependencies: ["0000000000000196"]
+			size: 0.85d
+			optional: true
+			id: "00000000000001C2"
+			tasks: [{
+				id: "00000000000001C3"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			subtitle: "Craft an Electric Bow"
+			description: [
+				"The Electric Bow works like the vanilla Bow and shoots normal Arrows."
+				" "
+				"The difference is, that every shot doesn't damage, but discharges the bow. If the internal energy storage is empty, the bow doesn't work and needs to be recharged e.g. on a Basic Energy Cube."
+				" "
+			]
+			dependencies: [
+				"00000000000001C8"
+				"0000000000000192"
+			]
+			size: 0.85d
+			optional: true
+			id: "00000000000001C4"
+			tasks: [{
+				id: "00000000000001C5"
+				type: "item"
+				item: "mekanism:electric_bow"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			subtitle: "Craft a pair of Free Runners"
+			description: [
+				"Free Runners are an item that allows players to ascend 1-block inclines automatically (like the Horse), as well as preventing fall damage as long as they are charged."
+				""
+				"A fall will reduce the item's charge, depending on how far the fall was."
+				" "
+			]
+			dependencies: [
+				"00000000000001C8"
+				"0000000000000198"
+				"0000000000000192"
+			]
+			size: 0.85d
+			optional: true
+			id: "00000000000001C6"
+			tasks: [{
+				id: "00000000000001C7"
+				type: "item"
+				item: "mekanism:free_runners"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			shape: "circle"
+			subtitle: "Craft an Energy Tablet"
+			description: [
+				"The Energy Tablet is a portable, rechargeable battery pack that can be charged with up to 1,000kJ of energy and can then be used to power other devices."
+				" "
+				"It is also an ingredient in many recipes."
+				""
+			]
+			dependencies: ["0000000000000192"]
+			id: "00000000000001C8"
+			tasks: [{
+				id: "00000000000001C9"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Craft a Basic Bin"
+			description: [
+				"The Basic Bin is a storage block which can hold 4096 of a single item. It will retain its inventory when broken."
+				" "
+			]
+			dependencies: [
+				"0000000000000192"
+				"0000000000000198"
+			]
+			id: "00000000000001CE"
+			tasks: [{
+				id: "00000000000001CF"
+				type: "item"
+				item: "mekanism:basic_bin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			subtitle: "Craft an Advanced Bin"
+			description: [
+				"The Advanced Bin is a storage block which can hold 8192 of a single item. It will retain its inventory when broken."
+				" "
+			]
+			dependencies: [
+				"00000000000001CE"
+				"0000000000000192"
+				"000000000000019A"
+			]
+			id: "00000000000001D0"
+			tasks: [{
+				id: "00000000000001D1"
+				type: "item"
+				item: "mekanism:advanced_bin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			subtitle: "Craft an Elite Bin"
+			description: [
+				"The Elite Bin is a storage block which can hold 32,768 of a single item. It will retain its inventory when broken."
+				" "
+			]
+			dependencies: [
+				"00000000000001D0"
+				"0000000000000194"
+				"000000000000019C"
+			]
+			id: "00000000000001D2"
+			tasks: [{
+				id: "00000000000001D3"
+				type: "item"
+				item: "mekanism:elite_bin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			subtitle: "Craft an Ultimate Bin"
+			description: [
+				"The Ultimate Bin is a storage block which can hold 262,144 of a single item. It will retain its inventory when broken."
+				""
+			]
+			dependencies: [
+				"00000000000001D2"
+				"0000000000000196"
+				"000000000000019E"
+			]
+			id: "00000000000001D4"
+			tasks: [{
+				id: "00000000000001D5"
+				type: "item"
+				item: "mekanism:ultimate_bin"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Craft a Basic Chemical Tank"
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate."
+				" "
+			]
+			id: "00000000000001D6"
+			tasks: [{
+				id: "0000000000000FF1"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			subtitle: "Craft an Advanced Chemical Tank"
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate."
+				" "
+			]
+			dependencies: [
+				"00000000000001D6"
+				"0000000000000192"
+			]
+			id: "00000000000001D8"
+			tasks: [{
+				id: "0000000000000FF2"
+				type: "item"
+				item: "mekanism:advanced_chemical_tank"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			subtitle: "Craft an Elite Chemical Tank"
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate."
+				" "
+			]
+			dependencies: [
+				"00000000000001D8"
+				"0000000000000194"
+			]
+			id: "00000000000001DA"
+			tasks: [{
+				id: "000000000000000A"
+				type: "item"
+				item: "mekanism:elite_chemical_tank"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "Craft an Ultimate Chemical Tank"
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate."
+				" "
+			]
+			dependencies: [
+				"00000000000001DA"
+				"0000000000000196"
+			]
+			id: "00000000000001DC"
+			tasks: [{
+				id: "0000000000000FF3"
+				type: "item"
+				item: "mekanism:ultimate_chemical_tank"
+			}]
+		}
+		{
+			title: "Basic Universal Cable"
+			x: -0.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Craft x8 Basic Universal Cables"
+			description: [
+				"Universal Cables are Mekanism's way to transfer power."
+				" "
+				"Capacity: 1.28 kFE/t"
+				" "
+			]
+			id: "00000000000001E0"
+			tasks: [{
+				id: "00000000000001E1"
+				type: "item"
+				item: { id: "mekanism:basic_universal_cable", Count: 8b }
+			}]
+		}
+		{
+			title: "Advanced Universal Cable"
+			x: -0.5d
+			y: -5.5d
+			subtitle: "Craft x8 Advanced Universal Cables"
+			description: [
+				"Universal Cables are Mekanism's way to transfer power."
+				" "
+				"Capacity: 5.12 kFE/t"
+				""
+			]
+			dependencies: [
+				"00000000000001E0"
+				"0000000000000192"
+			]
+			id: "00000000000001E2"
+			tasks: [{
+				id: "00000000000001E3"
+				type: "item"
+				item: { id: "mekanism:advanced_universal_cable", Count: 8b }
+			}]
+		}
+		{
+			title: "Elite Universal Cable"
+			x: -0.5d
+			y: -4.5d
+			subtitle: "Craft x8 Elite Universal Cables"
+			description: [
+				"Universal Cables are Mekanism's way to transfer power."
+				" "
+				"Capacity: 25.60 kFE/t"
+				" "
+			]
+			dependencies: [
+				"00000000000001E2"
+				"0000000000000194"
+			]
+			id: "00000000000001E4"
+			tasks: [{
+				id: "00000000000001E5"
+				type: "item"
+				item: { id: "mekanism:elite_universal_cable", Count: 8b }
+			}]
+		}
+		{
+			title: "Ultimate Universal Cable"
+			x: -0.5d
+			y: -3.5d
+			subtitle: "Craft x8 Ultimate Universal Cables"
+			description: [
+				"Universal Cables are Mekanism's way to transfer power."
+				" "
+				"Capacity: 128 kFE/t"
+				""
+			]
+			dependencies: [
+				"00000000000001E4"
+				"0000000000000196"
+			]
+			id: "00000000000001E6"
+			tasks: [{
+				id: "00000000000001E7"
+				type: "item"
+				item: { id: "mekanism:ultimate_universal_cable", Count: 8b }
+			}]
+		}
+		{
+			x: -8.85d
+			y: -2.1999999999999997d
+			shape: "rsquare"
+			subtitle: "Craft a Speed Upgrade"
+			description: [
+				"A Mekanism machine upgrade to make them process items faster each Mekanism machine can store 8 of these upgrades."
+				" "
+			]
+			dependencies: ["0000000000000192"]
+			size: 0.75d
+			optional: true
+			id: "00000000000001E8"
+			tasks: [{
+				id: "00000000000001E9"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+		}
+		{
+			x: -8.1d
+			y: -2.1999999999999997d
+			shape: "rsquare"
+			subtitle: "Craft an Energy Upgrade"
+			description: [
+				"The energy upgrade upgrade allows you to increase the power storage capacity of a Mekanism machine which has an upgrade slot, as well as reduce its power consumption."
+				" "
+			]
+			dependencies: ["0000000000000192"]
+			size: 0.75d
+			optional: true
+			id: "00000000000001EA"
+			tasks: [{
+				id: "00000000000001EB"
+				type: "item"
+				item: "mekanism:upgrade_energy"
+			}]
+		}
+		{
+			x: -8.85d
+			y: -2.9499999999999997d
+			shape: "rsquare"
+			subtitle: "Craft a Filter Upgrade"
+			description: [
+				"The Filter Upgrade is an upgrade that, when used in the Electric Pump, allows the Electric Pump to produce Heavy Water."
+				" "
+			]
+			dependencies: ["0000000000000192"]
+			size: 0.75d
+			optional: true
+			id: "00000000000001EC"
+			tasks: [{
+				id: "00000000000001ED"
+				type: "item"
+				item: "mekanism:upgrade_filter"
+			}]
+		}
+		{
+			x: -8.1d
+			y: -2.9499999999999997d
+			shape: "rsquare"
+			subtitle: "Craft a Muffling Upgrade"
+			description: [
+				"A Mekanism machine upgrade to make them process a bit quiet . Install full 4 upgrades to completely muff the machines noises."
+				" "
+			]
+			dependencies: ["0000000000000192"]
+			size: 0.75d
+			optional: true
+			id: "00000000000001EE"
+			tasks: [{
+				id: "00000000000001EF"
+				type: "item"
+				item: "mekanism:upgrade_muffling"
+			}]
+		}
+		{
+			x: -7.35d
+			y: -2.1999999999999997d
+			shape: "rsquare"
+			subtitle: "Craft a Gas Upgrade"
+			description: [
+				"The gas upgrade allows you to increase the gas usage efficiency of a Mekanism machine which allows it."
+				" "
+			]
+			dependencies: ["0000000000000192"]
+			size: 0.75d
+			optional: true
+			id: "00000000000001F0"
+			tasks: [{
+				id: "00000000000001F1"
+				type: "item"
+				item: "mekanism:upgrade_gas"
+			}]
+		}
+		{
+			x: -7.35d
+			y: -2.9499999999999997d
+			shape: "rsquare"
+			subtitle: "Craft an Anchor Upgrade"
+			description: [
+				"The Anchor Upgrade is a machine upgrade which keeps the chunk of the machine to which it is applied loaded. This is helpful for machines like the Digital Miner and Teleporter Portal which must be in loaded chunks to function properly."
+				" "
+			]
+			dependencies: ["0000000000000192"]
+			size: 0.75d
+			optional: true
+			id: "00000000000001F2"
+			tasks: [{
+				id: "00000000000001F3"
+				type: "item"
+				item: "mekanism:upgrade_anchor"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Craft a Basic Smelting Factory"
+			dependencies: ["000000000000024A"]
+			id: "00000000000001F6"
+			tasks: [{
+				id: "00000000000001F7"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "Craft a Basic Enriching Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["000000000000023E"]
+			id: "00000000000001F8"
+			tasks: [{
+				id: "00000000000001F9"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Craft a Basic Crushing Factory"
+			dependencies: ["0000000000000244"]
+			id: "00000000000001FA"
+			tasks: [{
+				id: "00000000000001FB"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			shape: "circle"
+			subtitle: "Craft a Basic Compressing Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000268"]
+			id: "00000000000001FC"
+			tasks: [{
+				id: "00000000000001FD"
+				type: "item"
+				item: "mekanism:basic_compressing_factory"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			subtitle: "Craft a Basic Combining Factory"
+			dependencies: ["0000000000000242"]
+			id: "00000000000001FE"
+			tasks: [{
+				id: "00000000000001FF"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "Craft a Basic Purifying Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000248"]
+			id: "0000000000000200"
+			tasks: [{
+				id: "0000000000000201"
+				type: "item"
+				item: "mekanism:basic_purifying_factory"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			shape: "circle"
+			subtitle: "Craft a Basic Injecting Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				" "
+			]
+			dependencies: ["000000000000027A"]
+			id: "0000000000000202"
+			tasks: [{
+				id: "0000000000000203"
+				type: "item"
+				item: "mekanism:basic_injecting_factory"
+			}]
+		}
+		{
+			x: -10.8d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Craft a Basic Infusion Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				" "
+			]
+			dependencies: ["0000000000000246"]
+			optional: true
+			id: "0000000000000204"
+			tasks: [{
+				id: "0000000000000205"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Craft a Basic Sawing Factory"
+			dependencies: ["0000000000000256"]
+			id: "0000000000000206"
+			tasks: [{
+				id: "0000000000000207"
+				type: "item"
+				item: "mekanism:basic_sawing_factory"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			subtitle: "Craft an Advanced Smelting Factory"
+			dependencies: ["00000000000001F6"]
+			id: "0000000000000208"
+			tasks: [{
+				id: "0000000000000209"
+				type: "item"
+				item: "mekanism:advanced_smelting_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			subtitle: "Craft an Advanced Enriching Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["00000000000001F8"]
+			id: "000000000000020A"
+			tasks: [{
+				id: "000000000000020B"
+				type: "item"
+				item: "mekanism:advanced_enriching_factory"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			subtitle: "Craft an Advanced Crushing Factory"
+			dependencies: ["00000000000001FA"]
+			id: "000000000000020C"
+			tasks: [{
+				id: "000000000000020D"
+				type: "item"
+				item: "mekanism:advanced_crushing_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			subtitle: "Craft an Advanced Compressing Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["00000000000001FC"]
+			id: "000000000000020E"
+			tasks: [{
+				id: "000000000000020F"
+				type: "item"
+				item: "mekanism:advanced_compressing_factory"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Craft an Advanced Combining Factory"
+			dependencies: ["00000000000001FE"]
+			id: "0000000000000210"
+			tasks: [{
+				id: "0000000000000211"
+				type: "item"
+				item: "mekanism:advanced_combining_factory"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "Craft an Advanced Purifying Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000200"]
+			id: "0000000000000212"
+			tasks: [{
+				id: "0000000000000213"
+				type: "item"
+				item: "mekanism:advanced_purifying_factory"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			subtitle: "Craft an Advanced Injecting Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000202"]
+			id: "0000000000000214"
+			tasks: [{
+				id: "0000000000000215"
+				type: "item"
+				item: "mekanism:advanced_injecting_factory"
+			}]
+		}
+		{
+			x: -10.8d
+			y: 1.0d
+			subtitle: "Craft an Advanced Infusion Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000204"]
+			id: "0000000000000216"
+			tasks: [{
+				id: "0000000000000217"
+				type: "item"
+				item: "mekanism:advanced_infusing_factory"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			subtitle: "Craft an Advanced Sawing Factory"
+			dependencies: ["0000000000000206"]
+			id: "0000000000000218"
+			tasks: [{
+				id: "0000000000000219"
+				type: "item"
+				item: "mekanism:advanced_sawing_factory"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			subtitle: "Craft an Elite Smelting Factory"
+			dependencies: ["0000000000000208"]
+			id: "000000000000021A"
+			tasks: [{
+				id: "000000000000021B"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			subtitle: "Craft an Elite Enriching Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["000000000000020A"]
+			id: "000000000000021C"
+			tasks: [{
+				id: "000000000000021D"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			subtitle: "Craft an Elite Crushing Factory"
+			dependencies: ["000000000000020C"]
+			id: "000000000000021E"
+			tasks: [{
+				id: "000000000000021F"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			subtitle: "Craft an Elite Compressing Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["000000000000020E"]
+			id: "0000000000000220"
+			tasks: [{
+				id: "0000000000000221"
+				type: "item"
+				item: "mekanism:elite_compressing_factory"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			subtitle: "Craft an Elite Combining Factory"
+			dependencies: ["0000000000000210"]
+			id: "0000000000000222"
+			tasks: [{
+				id: "0000000000000223"
+				type: "item"
+				item: "mekanism:elite_combining_factory"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			subtitle: "Craft an Elite Purifying Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000212"]
+			id: "0000000000000224"
+			tasks: [{
+				id: "0000000000000225"
+				type: "item"
+				item: "mekanism:elite_purifying_factory"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			subtitle: "Craft an Elite Injecting Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000214"]
+			id: "0000000000000226"
+			tasks: [{
+				id: "0000000000000227"
+				type: "item"
+				item: "mekanism:elite_injecting_factory"
+			}]
+		}
+		{
+			x: -10.8d
+			y: 2.0d
+			subtitle: "Craft an Elite Infusion Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				" "
+			]
+			dependencies: ["0000000000000216"]
+			id: "0000000000000228"
+			tasks: [{
+				id: "0000000000000229"
+				type: "item"
+				item: "mekanism:elite_infusing_factory"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			subtitle: "Craft an Elite Sawing Factory"
+			dependencies: ["0000000000000218"]
+			id: "000000000000022A"
+			tasks: [{
+				id: "000000000000022B"
+				type: "item"
+				item: "mekanism:elite_sawing_factory"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			subtitle: "Craft an Ultimate Smelting Factory"
+			dependencies: ["000000000000021A"]
+			id: "000000000000022C"
+			tasks: [{
+				id: "000000000000022D"
+				type: "item"
+				item: "mekanism:ultimate_smelting_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			subtitle: "Craft an Ultimate Enriching Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["000000000000021C"]
+			id: "000000000000022E"
+			tasks: [{
+				id: "000000000000022F"
+				type: "item"
+				item: "mekanism:ultimate_enriching_factory"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			subtitle: "Craft an Ultimate Crushing Factory"
+			dependencies: ["000000000000021E"]
+			id: "0000000000000230"
+			tasks: [{
+				id: "0000000000000231"
+				type: "item"
+				item: "mekanism:ultimate_crushing_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			subtitle: "Craft an Ultimate Compressing Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				" "
+			]
+			dependencies: ["0000000000000220"]
+			id: "0000000000000232"
+			tasks: [{
+				id: "0000000000000233"
+				type: "item"
+				item: "mekanism:ultimate_compressing_factory"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			subtitle: "Craft an Ultimate Combining Factory"
+			dependencies: ["0000000000000222"]
+			id: "0000000000000234"
+			tasks: [{
+				id: "0000000000000235"
+				type: "item"
+				item: "mekanism:ultimate_combining_factory"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			subtitle: "Craft an Ultimate Purifying Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000224"]
+			id: "0000000000000236"
+			tasks: [{
+				id: "0000000000000237"
+				type: "item"
+				item: "mekanism:ultimate_purifying_factory"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			subtitle: "Craft an Ultimate Injecting Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000226"]
+			id: "0000000000000238"
+			tasks: [{
+				id: "0000000000000239"
+				type: "item"
+				item: "mekanism:ultimate_injecting_factory"
+			}]
+		}
+		{
+			x: -10.8d
+			y: 3.0d
+			subtitle: "Craft an Ultimate Infusion Factory"
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing"
+				""
+			]
+			dependencies: ["0000000000000228"]
+			id: "000000000000023A"
+			tasks: [{
+				id: "000000000000023B"
+				type: "item"
+				item: "mekanism:ultimate_infusing_factory"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			subtitle: "Craft an Ultimate Sawing Factory"
+			dependencies: ["000000000000022A"]
+			id: "000000000000023C"
+			tasks: [{
+				id: "000000000000023D"
+				type: "item"
+				item: "mekanism:ultimate_sawing_factory"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "Craft an Enrichment Chamber"
+			description: [
+				"This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the Crusher, this machine is the pulverizer equivalent in other mods."
+				" "
+			]
+			dependencies: [
+				"000000000000027C"
+				"0000000000000198"
+			]
+			id: "000000000000023E"
+			tasks: [{
+				id: "000000000000023F"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Craft a Combiner"
+			dependencies: ["000000000000027C"]
+			id: "0000000000000242"
+			tasks: [{
+				id: "0000000000000243"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Craft a Crusher"
+			dependencies: ["000000000000027C"]
+			id: "0000000000000244"
+			tasks: [{
+				id: "0000000000000245"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: -10.8d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Craft a Metallurgic Infuser"
+			description: [
+				"The Metallurgic Infuser is the first step in the Mekanism tech tree."
+				" "
+				"It's a machine used in the production of Steel Ingots, Bronze Ingot, Enriched Alloy, and Obsidian Ingots."
+				" "
+			]
+			id: "0000000000000246"
+			tasks: [{
+				id: "0000000000000247"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Craft a Purification Chamber"
+			description: [
+				"The Purification Chamber uses oxygen to refine Ores and shards into clumps. Each ore makes 3 clumps, whereas each shard only gives one clump."
+				" "
+			]
+			dependencies: ["000000000000023E"]
+			id: "0000000000000248"
+			tasks: [{
+				id: "0000000000000249"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Craft an Energized Smelter"
+			dependencies: ["000000000000027C"]
+			id: "000000000000024A"
+			tasks: [{
+				id: "000000000000024B"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			dependencies: [
+				"00000000000001D6"
+				"00000000000001C8"
+				"00000000000001AA"
+			]
+			id: "000000000000024C"
+			tasks: [{
+				id: "000000000000024D"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			subtitle: "Craft a Chemical Oxidizer"
+			dependencies: ["00000000000001D6"]
+			id: "000000000000024E"
+			tasks: [{
+				id: "000000000000024F"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			subtitle: "Craft a Chemical Infuser"
+			dependencies: [
+				"000000000000027C"
+				"00000000000001D6"
+			]
+			id: "0000000000000250"
+			tasks: [{
+				id: "0000000000000251"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			subtitle: "Craft an Electrolytic Separator"
+			dependencies: ["0000000000000192"]
+			id: "0000000000000254"
+			tasks: [{
+				id: "0000000000000255"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Craft a Precision Sawmill"
+			dependencies: ["000000000000027C"]
+			id: "0000000000000256"
+			tasks: [{
+				id: "0000000000000257"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.0d
+			subtitle: "Craft a Chemical Dissolution Chamber"
+			dependencies: ["00000000000001D6"]
+			id: "0000000000000258"
+			tasks: [{
+				id: "0000000000000259"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			subtitle: "Craft a Chemical Washer"
+			dependencies: [
+				"000000000000027C"
+				"00000000000001D6"
+			]
+			id: "000000000000025A"
+			tasks: [{
+				id: "000000000000025B"
+				type: "item"
+				item: "mekanism:chemical_washer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			subtitle: "Craft a Chemical Crystallizer"
+			dependencies: [
+				"000000000000027C"
+				"00000000000001D6"
+			]
+			id: "000000000000025C"
+			tasks: [{
+				id: "000000000000025D"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			subtitle: "Craft a Pressurized Reaction Chamber"
+			dependencies: [
+				"000000000000023E"
+				"00000000000001D6"
+			]
+			id: "000000000000025E"
+			tasks: [{
+				id: "000000000000025F"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			subtitle: "Obtain some Obsidian Dust"
+			description: [
+				"Achieved by enriching Obsidian in the Enrichment Chamber."
+				" "
+			]
+			dependencies: ["000000000000023E"]
+			size: 0.9d
+			id: "0000000000000264"
+			tasks: [{
+				id: "00000000000002A2"
+				type: "item"
+				item: "mekanism:dust_obsidian"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			subtitle: "Craft Refined Obsidian Dust"
+			description: [
+				"Crafted by infusing Obsidian Dust with Diamond Dust or Compressed Diamond in the Metallurgic Infuser."
+				" "
+			]
+			dependencies: [
+				"0000000000000264"
+				"0000000000000246"
+			]
+			size: 0.9d
+			id: "0000000000000266"
+			tasks: [{
+				id: "0000000000000267"
+				type: "item"
+				item: "mekanism:dust_refined_obsidian"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "Create an Osmium Compressor"
+			description: [
+				"The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust."
+				""
+				"It fuses liquid Osmium (melted down Osmium Ingots placed in the machine's bottom slot) with the originating materials to create their corresponding ingots."
+				""
+			]
+			dependencies: [
+				"0000000000000266"
+				"000000000000019A"
+				"000000000000027C"
+			]
+			id: "0000000000000268"
+			tasks: [{
+				id: "0000000000000269"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			subtitle: "Create Refined Obsidian Ingot(s)"
+			description: [
+				"The Refined Obsidian Ingot is an ingot created by placing Refined Obsidian Dust into an Osmium Compressor fueled with Liquid Osmium (from Osmium Ingots)."
+				" "
+			]
+			dependencies: ["0000000000000268"]
+			id: "000000000000026C"
+			tasks: [{
+				id: "000000000000026D"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			subtitle: "Craft the Digital Miner"
+			description: [
+				"The Digital Miner is the scale mining machine of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."
+				" "
+			]
+			dependencies: [
+				"0000000000000272"
+				"0000000000000274"
+			]
+			id: "000000000000026E"
+			tasks: [{
+				id: "000000000000026F"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			subtitle: "Craft the Quantum Entangloporter"
+			description: [
+				"The Quantum Entangloporter is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel."
+				" "
+				"The Quantum Entangloporter is similar to the Tesseract from earlier versions of Thermal Expansion, but the Quantum Entangloporter can send and receive gasses while the Tesseract cannot."
+				" "
+			]
+			dependencies: [
+				"0000000000000272"
+				"000000000000019E"
+			]
+			id: "0000000000000270"
+			tasks: [{
+				id: "0000000000000271"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Craft a Teleportation Core"
+			description: [
+				"The Teleportation Core is a Crafting Component used in the crafting of the Portable Teleporter, the Teleporter and the Digital Miner."
+				" "
+			]
+			dependencies: ["0000000000000196"]
+			id: "0000000000000272"
+			tasks: [{
+				id: "0000000000000273"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			subtitle: "Craft a Robit"
+			description: [
+				"Robit is Mekanism's mechanical companion. He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy."
+				" "
+			]
+			dependencies: [
+				"000000000000026C"
+				"0000000000000196"
+			]
+			id: "0000000000000274"
+			tasks: [{
+				id: "0000000000000275"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Craft a Chemical Injection Chamber"
+			description: [
+				"The Chemical Injection Chamber uses Hydrogen Chloride gas to turn ores into 4 Shards. It is the start of x4 ore processing and requires a steady supply of Hydrogen Chloride, which in turn requires the player to have a Thermal Evaporation Plant runnin"
+				" "
+				"It can also turn Water Vapor and Dirt into Clay. Like most Mekanism machines, the Chemical Injection Chamber has a Factory block of itself."
+				""
+			]
+			dependencies: ["0000000000000248"]
+			id: "000000000000027A"
+			tasks: [{
+				id: "000000000000027B"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: -13.799999999999999d
+			y: -0.8999999999999999d
+			shape: "gear"
+			subtitle: "Craft a Steel Casing"
+			description: [
+				" "
+				""
+			]
+			size: 1.5d
+			id: "000000000000027C"
+			tasks: [{
+				id: "000000000000027D"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: 6.9750000000000005d
+			y: 1.485d
+			subtitle: "Create Enriched Iron"
+			description: [
+				"Crafted by the Metallurgic Infuser this is the basis from which Steel Dust can be attained by reprocessing it in the Metallurgic Infuser."
+				" "
+			]
+			dependencies: ["0000000000000246"]
+			size: 0.9d
+			id: "000000000000027E"
+			tasks: [{
+				id: "000000000000027F"
+				type: "item"
+				item: "mekanism:enriched_iron"
+			}]
+		}
+		{
+			title: "Steel Dust"
+			x: 7.875d
+			y: 1.485d
+			subtitle: "Craft Steel Dust"
+			description: [
+				"Steel Dust is produced by infusing an iron ingot with 10 units of carbon (producing Enriched Iron) and then infusing that with a further 10 units of Carbon."
+				" "
+				"(Carbon = Coal, Charcoal or Refined Carbon)"
+				""
+			]
+			dependencies: ["000000000000027E"]
+			size: 0.9d
+			id: "0000000000000280"
+			tasks: [{
+				id: "0000000000000298"
+				type: "item"
+				item: "silents_mechanisms:steel_dust"
+			}]
+		}
+		{
+			title: "Steel Ingot"
+			x: 8.85d
+			y: 1.45d
+			shape: "pentagon"
+			subtitle: "Create Steel Ingot(s)"
+			description: [
+				"A Steel Ingot is created by smelting Steel Dust in any type of furnace."
+				" "
+			]
+			dependencies: ["0000000000000280"]
+			id: "0000000000000282"
+			tasks: [{
+				id: "0000000000000283"
+				type: "item"
+				title: "Any Steel Ingot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			subtitle: "Craft a Chargepad"
+			description: [
+				"The Chargepad is a wireless electric charging station. Any rechargeable items you have in your inventory will be charged while standing on it."
+				" "
+			]
+			dependencies: ["00000000000001C8"]
+			size: 0.85d
+			optional: true
+			id: "0000000000000284"
+			tasks: [{
+				id: "0000000000000285"
+				type: "item"
+				item: "mekanism:chargepad"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.0d
+			subtitle: "Craft the Teleporter Compontents"
+			description: [
+				"The Teleporter Portal is a multi-block structure that allows the player to teleport between Teleporters on the same frequency."
+				" "
+				"Read more about it on the Wiki:"
+				"https://wiki.aidancbrady.com/wiki/Teleporter_Portal"
+				" "
+			]
+			dependencies: [
+				"0000000000000272"
+				"0000000000000295"
+				"000000000000026C"
+			]
+			id: "0000000000000292"
+			tasks: [
+				{
+					id: "0000000000000293"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+				{
+					id: "0000000000000294"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+					count: 9L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			subtitle: "Create Glowstone Ingot(s)"
+			description: [
+				"Glowstone Ingots are made by putting Glowstone in a powered Osmium Compressor with Glowstone in the top and Osmium Ingots in the bottom."
+				" "
+				"Glowstone Ingots can be used for making Glowstone Armor, Refined Glowstone blocks and Teleporter Frames."
+				" "
+			]
+			dependencies: ["0000000000000268"]
+			id: "0000000000000295"
+			tasks: [{
+				id: "0000000000000296"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+		}
+		{
+			x: -10.879999999999999d
+			y: -2.21d
+			shape: "rsquare"
+			subtitle: "Craft a Basic Tier Installer"
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine"
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used."
+				" "
+			]
+			dependencies: ["0000000000000246"]
+			size: 0.85d
+			id: "0000000000000299"
+			tasks: [{
+				id: "000000000000029A"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+		}
+		{
+			x: -10.879999999999999d
+			y: -3.23d
+			shape: "rsquare"
+			subtitle: "Craft an Advanced Tier Installer"
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine"
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used."
+				" "
+			]
+			dependencies: [
+				"0000000000000299"
+				"000000000000019A"
+				"0000000000000192"
+			]
+			size: 0.85d
+			id: "000000000000029B"
+			tasks: [{
+				id: "000000000000029C"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+		}
+		{
+			x: -10.879999999999999d
+			y: -4.25d
+			shape: "rsquare"
+			subtitle: "Craft an Elite Tier Installer"
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine"
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used."
+				" "
+			]
+			dependencies: [
+				"000000000000029B"
+				"000000000000019C"
+				"0000000000000194"
+			]
+			size: 0.85d
+			id: "000000000000029D"
+			tasks: [{
+				id: "000000000000029E"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			x: -10.879999999999999d
+			y: -5.27d
+			shape: "rsquare"
+			subtitle: "Craft a Ultimate Tier Installer"
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine"
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used."
+				" "
+			]
+			dependencies: [
+				"000000000000029D"
+				"000000000000019E"
+			]
+			size: 0.85d
+			id: "000000000000029F"
+			tasks: [{
+				id: "00000000000002A0"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+		}
+		{
+			x: -12.8d
+			y: -9.4d
+			shape: "pentagon"
+			subtitle: "Craft a MekaSuit Helmet"
+			dependencies: ["000000000000019E"]
+			optional: true
+			id: "2629A2DF4A5360AA"
+			tasks: [{
+				id: "2C6A9BEB0DE9D72D"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -12.8d
+			y: -8.4d
+			shape: "hexagon"
+			subtitle: "Craft MekaSuit Bodyarmor"
+			dependencies: ["000000000000019E"]
+			optional: true
+			id: "2246AD5720D4A494"
+			tasks: [{
+				id: "06A61B74DAB16DA0"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -12.8d
+			y: -7.4d
+			shape: "hexagon"
+			subtitle: "Craft MekaSuit Pants"
+			dependencies: ["000000000000019E"]
+			optional: true
+			id: "6C7E1970F0301656"
+			tasks: [{
+				id: "33848588DCE417E4"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -12.8d
+			y: -6.4d
+			shape: "hexagon"
+			subtitle: "Craft MekaSuit Boots"
+			dependencies: ["000000000000019E"]
+			optional: true
+			id: "31AD21A2BA605EF7"
+			tasks: [{
+				id: "215846454E39EFAA"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -11.8d
+			y: -6.4d
+			shape: "octagon"
+			subtitle: "Craft the Modification Station."
+			dependencies: ["000000000000019E"]
+			optional: true
+			id: "12F9394E5F49D6CF"
+			tasks: [{
+				id: "6CD47E3494D2FCB8"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+		}
+	]
+}

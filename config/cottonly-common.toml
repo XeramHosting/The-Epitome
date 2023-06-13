@@ -1,0 +1,6 @@
+
+#Loot Table Settings
+["loot tables"]
+	#Remove Cotton seeds from the grass loot table? [DEFAULT:false]
+	remove_cotton_seeds_loot_table = false
+

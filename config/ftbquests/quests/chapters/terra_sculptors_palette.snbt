@@ -1,0 +1,189 @@
+{
+	id: "532054A39D202DF4"
+	group: "51A320C9295B1062"
+	order_index: 4
+	filename: "terra_sculptors_palette"
+	title: "Terra Sculptor's Palette"
+	icon: {
+		id: "buildinggadgets:gadget_destruction"
+		Count: 1b
+		tag: {
+			overlay: 1b
+			fuzzy: 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "002A2042D958C089"
+			tasks: [{
+				id: "789147D6358B2C7F"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "165ABABD644D8BD7"
+			tasks: [{
+				id: "2FD7AC96A5CB7E4E"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "324B5B36B762BF11"
+			tasks: [{
+				id: "61430703A3236BF6"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-1663461580
+							-682801665
+							-1572886151
+							-1603210042
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "7CF8E3785A487352"
+			tasks: [{
+				id: "244DA48556365A18"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "3AA4A2BB2CCA3287"
+			tasks: [{
+				id: "75C1E09A505C27A3"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "760EF7CEFB1A6273"
+			tasks: [{
+				id: "0DE3D91DCEAE2CF0"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "299701FE39392E40"
+			tasks: [{
+				id: "204812922E4FC6A0"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "7B36A8ECCEA0D198"
+			tasks: [{
+				id: "64EC2F415127061D"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "52886C7E74C1900D"
+			tasks: [{
+				id: "1EA5C1341E9CE274"
+				type: "item"
+				item: "constructionwand:core_angel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "134405F6A8BDCE7C"
+			tasks: [{
+				id: "443F836F9E01EF0C"
+				type: "item"
+				item: "constructionwand:core_destruction"
+			}]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Flourishing Archwood",
+    "colors": [
+      "00a114",
+      "007e0d"
+    ],
+    "ingredient": {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    "inUltimateSingularity": false
+  }

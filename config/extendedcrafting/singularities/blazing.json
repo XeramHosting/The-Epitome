@@ -1,0 +1,7 @@
+{
+    "name": "Blazing Capacitor",
+    "colors": ["F0CE0D", "F0CE0D"],
+    "ingredient": {
+        "item": "powah:capacitor_blazing"
+    }
+}

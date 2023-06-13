@@ -1,0 +1,7 @@
+{
+    "name": "Magical Egg",
+    "colors": ["DCCC99", "DCCC99"],
+    "ingredient": {
+        "item": "miniutilities:magical_egg"
+    }
+}

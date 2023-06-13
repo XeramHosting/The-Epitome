@@ -1,0 +1,342 @@
+{
+	id: "3C79FA88A6EACCE9"
+	group: "51A320C9295B1062"
+	order_index: 5
+	filename: "veins_of_the_worldheart"
+	title: "Veins of the Worldheart"
+	icon: "emendatusenigmatica:iron_ore"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.8d
+			y: -0.6d
+			id: "74AFDF7DFEF543DB"
+			tasks: [{
+				id: "280630FD2EBA1248"
+				type: "item"
+				item: "emendatusenigmatica:iron_chunk"
+			}]
+		}
+		{
+			x: -0.8d
+			y: 0.4d
+			id: "2F8959420AD77BA6"
+			tasks: [{
+				id: "21FE218FABAD3D12"
+				type: "item"
+				item: "emendatusenigmatica:gold_chunk"
+			}]
+		}
+		{
+			x: -0.8d
+			y: 1.4d
+			id: "69D66AAB4677845C"
+			tasks: [{
+				id: "5A68F77B76FB1812"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			x: -0.8d
+			y: 2.4d
+			id: "01DFCABD364DAB69"
+			tasks: [{
+				id: "4C21D2873886D1FE"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: -0.8d
+			y: 4.4d
+			id: "5FCBFC9378884897"
+			tasks: [{
+				id: "2C572AC2AD191088"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -0.8d
+			y: 5.4d
+			id: "7CF3515E3FAB410C"
+			tasks: [{
+				id: "4F46731DF1FF78E1"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -0.8d
+			y: 3.4d
+			id: "67D5042CFE1503CB"
+			tasks: [{
+				id: "427EAC6628489A68"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 0.4d
+			id: "5A68348A1D620B55"
+			tasks: [{
+				id: "3D926FD6965581B6"
+				type: "item"
+				item: "emendatusenigmatica:copper_chunk"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 1.4d
+			id: "7AF6AE4ED275113F"
+			tasks: [{
+				id: "127AF8C30EA00D7B"
+				type: "item"
+				item: "emendatusenigmatica:tin_chunk"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 2.4d
+			id: "51D8E44B8E61FE72"
+			tasks: [{
+				id: "5F193F7775CAE631"
+				type: "item"
+				item: "emendatusenigmatica:aluminum_chunk"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 3.4d
+			id: "2C7E0732EC09AB17"
+			tasks: [{
+				id: "19BA1D81F44BB7C9"
+				type: "item"
+				item: "emendatusenigmatica:silver_chunk"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 4.4d
+			id: "56BD275F3FED2056"
+			tasks: [{
+				id: "6EAA1D0D3BA4738C"
+				type: "item"
+				item: "emendatusenigmatica:lead_chunk"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 5.4d
+			id: "1DA9A2C7775A5D1C"
+			tasks: [{
+				id: "6DB24E0443278D1D"
+				type: "item"
+				item: "emendatusenigmatica:nickel_chunk"
+			}]
+		}
+		{
+			x: 0.2d
+			y: -0.6d
+			id: "41B393DC903A52E0"
+			tasks: [{
+				id: "46EF8D5BD1CF3732"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: 1.2d
+			y: -0.6d
+			id: "2A18D9FBED8F74DF"
+			tasks: [{
+				id: "3842110E701AA84A"
+				type: "item"
+				item: "emendatusenigmatica:uranium_chunk"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 0.4d
+			id: "6A0E5D034458B845"
+			tasks: [{
+				id: "51C8CE7FC308DA8B"
+				type: "item"
+				item: "emendatusenigmatica:osmium_chunk"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 1.4d
+			id: "60CC727B8EB90ED6"
+			tasks: [{
+				id: "1E0352B23092F7D8"
+				type: "item"
+				item: "emendatusenigmatica:zinc_chunk"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 2.4d
+			id: "1D1453B52B4FE98C"
+			tasks: [{
+				id: "6F52AEA104B89861"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_chunk"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 3.4d
+			id: "53666F9DB61CEEAA"
+			tasks: [{
+				id: "096253F3675A3AEC"
+				type: "item"
+				item: "emendatusenigmatica:iridium_chunk"
+			}]
+		}
+		{
+			x: 2.2d
+			y: -0.6d
+			id: "4086EB8A932122FE"
+			tasks: [{
+				id: "1F71F76619D1EF16"
+				type: "item"
+				item: "emendatusenigmatica:fluorite_gem"
+			}]
+		}
+		{
+			x: 2.2d
+			y: 0.4d
+			id: "2ABB81CA8FC62ED5"
+			tasks: [{
+				id: "7F459791FF7631F8"
+				type: "item"
+				item: "emendatusenigmatica:bitumen_gem"
+			}]
+		}
+		{
+			x: 2.2d
+			y: 1.4d
+			id: "301B78FC7C626DE5"
+			tasks: [{
+				id: "70D3ADCA09C74012"
+				type: "item"
+				item: "emendatusenigmatica:cinnabar_gem"
+			}]
+		}
+		{
+			x: 2.2d
+			y: 2.4d
+			id: "124E876C9F08322E"
+			tasks: [{
+				id: "573343D5FE94BB27"
+				type: "item"
+				item: "emendatusenigmatica:apatite_gem"
+			}]
+		}
+		{
+			x: 2.2d
+			y: 3.4d
+			id: "48B130FE11430510"
+			tasks: [{
+				id: "5B753CA7848347D7"
+				type: "item"
+				item: "emendatusenigmatica:sulfur_gem"
+			}]
+		}
+		{
+			x: 2.2d
+			y: 4.4d
+			id: "0ABD678B8C0A6304"
+			tasks: [{
+				id: "23CAB01284DDEC09"
+				type: "item"
+				item: "emendatusenigmatica:potassium_nitrate_gem"
+			}]
+		}
+		{
+			x: 2.2d
+			y: 5.4d
+			id: "0E8226ED06E150D0"
+			tasks: [{
+				id: "55A79FE7D583A02A"
+				type: "item"
+				item: "emendatusenigmatica:arcane_gem"
+			}]
+		}
+		{
+			x: 3.2d
+			y: -0.6d
+			id: "284A82B8142E5BE9"
+			tasks: [{
+				id: "18737F629D02DC51"
+				type: "item"
+				item: "emendatusenigmatica:dimensional_gem"
+			}]
+		}
+		{
+			x: 3.2d
+			y: 0.4d
+			id: "06F3818DB39E393D"
+			tasks: [{
+				id: "7C153621031C51B1"
+				type: "item"
+				item: "emendatusenigmatica:ruby_gem"
+			}]
+		}
+		{
+			x: 3.2d
+			y: 1.4d
+			id: "6EF3E636A15D3E03"
+			tasks: [{
+				id: "77D9C95C3CD1A47A"
+				type: "item"
+				item: "emendatusenigmatica:sapphire_gem"
+			}]
+		}
+		{
+			x: 3.2d
+			y: 2.4d
+			id: "5FC78F7BD60B5A9D"
+			tasks: [{
+				id: "007BC8B36596193A"
+				type: "item"
+				item: "emendatusenigmatica:peridot_gem"
+			}]
+		}
+		{
+			x: 3.2d
+			y: 3.4d
+			id: "3FA5CFE7466704E4"
+			tasks: [{
+				id: "253E526C822FD4B0"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			x: 3.2d
+			y: 4.4d
+			id: "4891A3CE3FD81B99"
+			tasks: [{
+				id: "0B76B642D8606EE9"
+				type: "item"
+				item: "evilcraft:dark_gem_crushed"
+			}]
+		}
+		{
+			x: 3.2d
+			y: 5.4d
+			id: "2F425A3C1CDD17F5"
+			tasks: [{
+				id: "749628E9BDACDC99"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+	]
+}

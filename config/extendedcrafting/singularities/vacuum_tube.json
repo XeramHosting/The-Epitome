@@ -1,0 +1,7 @@
+{
+    "name": "Vacuum Tube",
+    "colors": ["A37A6F", "575757"],
+    "ingredient": {
+        "item": "immersiveengineering:electron_tube"
+    }
+}

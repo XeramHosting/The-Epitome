@@ -1,0 +1,7 @@
+{
+    "name": "Wyvern Energy Core",
+    "colors": ["652E8C", "080809"],
+    "ingredient": {
+        "item": "draconicevolution:wyvern_energy_core"
+    }
+}

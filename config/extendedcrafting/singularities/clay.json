@@ -1,0 +1,7 @@
+{
+    "name": "Clay",
+    "colors": ["ADB7D3", "ADB7D3"],
+    "ingredient": {
+        "tag": "forge:clay"
+    }
+}

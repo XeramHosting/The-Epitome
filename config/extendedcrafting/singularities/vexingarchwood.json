@@ -1,0 +1,11 @@
+{
+    "name": "Vexing Archwood",
+    "colors": [
+      "9060ca",
+      "7040aa"
+    ],
+    "ingredient": {
+        "item": "ars_nouveau:purple_archwood_log"
+    },
+    "inUltimateSingularity": false
+  }

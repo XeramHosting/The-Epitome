@@ -1,0 +1,10 @@
+{
+  "name": "Californium",
+  "colors": [
+    "c3c586",
+    "fcffad"
+  ],
+  "ingredient": {
+    "item": "chemlib:ingot_californium"
+  }
+}

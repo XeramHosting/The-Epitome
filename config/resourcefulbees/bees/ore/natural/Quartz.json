@@ -1,0 +1,30 @@
+{
+  "flower": "minecraft:nether_wart",
+  "maxTimeInHive": 1000,
+  "hasHoneycomb": true, 
+  "baseLayerTexture": "epitome/quartz_bee",
+  "traits": ["nether"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#D4CABA",  
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:quartz",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

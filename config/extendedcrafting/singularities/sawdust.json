@@ -1,0 +1,7 @@
+{
+    "name": "Sawdust",
+    "colors": ["755E56", "5B4138"],
+    "ingredient": {
+        "item": "thermal:sawdust_block"
+    }
+}

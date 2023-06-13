@@ -1,0 +1,7 @@
+{
+    "name": "Tesseract",
+    "colors": ["02130B", "02130B"],
+    "ingredient": {
+        "item": "tesseract:tesseract"
+    }
+}

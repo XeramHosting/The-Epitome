@@ -1,0 +1,31 @@
+{
+    "flower": "rats:cheese_block",
+    "maxTimeInHive": 1200,
+    "traits": ["can_swim"],
+    "hasHoneycomb": true,
+    "baseLayerTexture":"epitome/cheese_bee",
+    "ColorData": {
+        "isBeeColored": false
+    },
+    "MutationData": {
+        "hasMutation": false
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+        "mainOutput": "rats:cheese",
+        "mainOutputCount": 1,
+        "mainOutputWeight": 0.20
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:overworld"
+    },
+    "BreedData": {
+        "isBreedable": true,
+        "feedItem": "rats:cheese",
+        "feedAmount": 1
+    },
+    "TraitData": {
+        "hasTraits": true
+    }
+  }

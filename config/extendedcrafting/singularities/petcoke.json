@@ -1,0 +1,11 @@
+{
+    "name": "Petcoke",
+    "colors": [
+      "323232",
+      "101015"
+    ],
+    "ingredient": {
+      "item": "immersivepetroleum:petcoke"
+    },
+    "inUltimateSingularity": true
+  }

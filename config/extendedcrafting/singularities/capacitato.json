@@ -1,0 +1,7 @@
+{
+    "name": "Capacitato",
+    "colors": ["C69539", "C69539"],
+    "ingredient": {
+        "item": "thermal:rf_potato"
+    }
+}

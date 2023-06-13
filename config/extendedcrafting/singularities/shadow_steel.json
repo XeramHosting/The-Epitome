@@ -1,0 +1,7 @@
+{
+    "name": "Shadow Steel",
+    "colors": ["02130B", "02130B"],
+    "ingredient": {
+        "item": "create:shadow_steel"
+    }
+}

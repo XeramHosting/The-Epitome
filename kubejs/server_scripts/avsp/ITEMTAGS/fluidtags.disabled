@@ -1,0 +1,18 @@
+//   #    #     #  #####  ######  
+//  # #   #     # #     # #     # 
+// #   #  #     # #       #     # 
+//#     # #     #  #####  ######  
+//#######  #   #        # #       
+//#     #   # #   #     # #       
+//#     #    #     #####  #       
+//
+//SCRIPT FOR RETAGGING FLUIDS
+//BY NEEPNOOP & ANOKKA / 2021
+//
+onEvent('fluid.tags', event => {
+//ITEMTAGS
+	event.add('forge:molten_glowstone', 'avsp:molten_glowstone')
+//
+//fin
+//
+})

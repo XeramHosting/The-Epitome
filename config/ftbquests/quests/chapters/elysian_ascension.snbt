@@ -1,0 +1,347 @@
+{
+	id: "6CD151E175FAEDAF"
+	group: ""
+	order_index: 1
+	filename: "elysian_ascension"
+	title: "Elysian Ascension"
+	icon: "storagedrawers:creative_vending_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.2d
+			y: -3.0d
+			hide_dependency_lines: true
+			id: "4F29A7D61DCE95EA"
+			tasks: [{
+				id: "501ED9B0091E2F29"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -3.0d
+			hide_dependency_lines: true
+			id: "7188027633D607E5"
+			tasks: [{
+				id: "63492FF312E1E0A1"
+				type: "item"
+				item: "kubejs:ultimate_honeycomb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			id: "01B8712500626BB4"
+			tasks: [{
+				id: "5CA84CD2FD8E89F0"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -2.0d
+			hide_dependency_lines: true
+			id: "7E51FB443D85CBDF"
+			tasks: [{
+				id: "5A6247D4299D808E"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			id: "59245FFC1FB0BC15"
+			tasks: [{
+				id: "2E793B9938DEE7A3"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -5.7d
+			dependencies: ["2B2B14D94E366D34"]
+			id: "6A347FAA65488C6B"
+			tasks: [{
+				id: "0BA2B8A7D0801541"
+				type: "item"
+				item: "botanicalmachinery:mana_battery_creative"
+			}]
+		}
+		{
+			x: -2.6d
+			y: -5.7d
+			dependencies: ["2B2B14D94E366D34"]
+			id: "34EBD37EC1B8DF86"
+			tasks: [{
+				id: "2725A92E65986CF4"
+				type: "item"
+				item: "ars_nouveau:creative_mana_jar"
+			}]
+		}
+		{
+			x: -2.6d
+			y: -6.9d
+			dependencies: ["2B2B14D94E366D34"]
+			id: "7C8D1210DB62E6DB"
+			tasks: [{
+				id: "78A0CF1B70EB8257"
+				type: "item"
+				item: "bloodmagic:activationcrystalcreative"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -6.9d
+			dependencies: ["2B2B14D94E366D34"]
+			id: "06B23809A1907ADF"
+			tasks: [{
+				id: "77EAEBD8571F3D37"
+				type: "item"
+				item: "elementalcraft:tank"
+				count: 4L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.7d
+			dependencies: ["65EC0D4FC68A51E1"]
+			id: "6284A1DAA9E65488"
+			tasks: [{
+				id: "7309A9E56620799F"
+				type: "item"
+				item: "woot:creative_conatus"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.7d
+			dependencies: ["65EC0D4FC68A51E1"]
+			id: "39E355F3D53E22AA"
+			tasks: [{
+				id: "71C6334A44A6BC1E"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.9d
+			dependencies: ["65EC0D4FC68A51E1"]
+			id: "32F6E3701FBE8735"
+			tasks: [{
+				id: "05F09B5CEFF6A563"
+				type: "item"
+				item: "extradisks:infinite_storage_disk"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.9d
+			dependencies: ["65EC0D4FC68A51E1"]
+			id: "241163F828146C02"
+			tasks: [{
+				id: "24DA2856355654A1"
+				type: "item"
+				item: "extradisks:infinite_fluid_storage_disk"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.4d
+			dependencies: [
+				"59245FFC1FB0BC15"
+				"01B8712500626BB4"
+				"4F29A7D61DCE95EA"
+				"7188027633D607E5"
+				"7E51FB443D85CBDF"
+			]
+			id: "2B2B14D94E366D34"
+			tasks: [{
+				id: "36737C2A68DA1CAB"
+				type: "checkmark"
+				title: "Magic"
+			}]
+		}
+		{
+			x: 1.4d
+			y: -4.4d
+			dependencies: [
+				"59245FFC1FB0BC15"
+				"01B8712500626BB4"
+				"4F29A7D61DCE95EA"
+				"7188027633D607E5"
+				"7E51FB443D85CBDF"
+			]
+			id: "65EC0D4FC68A51E1"
+			tasks: [{
+				id: "5A6D5C97EBC99335"
+				type: "checkmark"
+				title: "Logistics"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.4d
+			dependencies: [
+				"34EBD37EC1B8DF86"
+				"7C8D1210DB62E6DB"
+				"06B23809A1907ADF"
+				"6A347FAA65488C6B"
+			]
+			id: "689817DED9AC4FBF"
+			tasks: [{
+				id: "2430B0425DC94EA5"
+				type: "checkmark"
+				title: "Nothing from Something"
+			}]
+		}
+		{
+			x: 1.6d
+			y: -8.4d
+			dependencies: [
+				"32F6E3701FBE8735"
+				"241163F828146C02"
+				"39E355F3D53E22AA"
+				"6284A1DAA9E65488"
+			]
+			id: "4BC4D5650FC9CC53"
+			tasks: [{
+				id: "20D7B19F97C75AB3"
+				type: "checkmark"
+				title: "Something from Nothing"
+			}]
+		}
+		{
+			x: -2.6d
+			y: -9.8d
+			dependencies: ["689817DED9AC4FBF"]
+			id: "36AC49D9B8B95008"
+			tasks: [{
+				id: "54BC2872839D551C"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: -1.4d
+			y: -9.8d
+			dependencies: ["689817DED9AC4FBF"]
+			id: "1D5446A11140E010"
+			tasks: [{
+				id: "339C4DB2E7D50A54"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.8d
+			dependencies: ["4BC4D5650FC9CC53"]
+			id: "6A72E8EFBEEFFFF7"
+			tasks: [{
+				id: "6A3798B3481574B9"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+		}
+		{
+			x: 2.2d
+			y: -9.8d
+			dependencies: ["4BC4D5650FC9CC53"]
+			id: "76857729F6CED647"
+			tasks: [{
+				id: "45262C7CD3DB15B0"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-768115335
+									441928756
+									-1860157727
+									535625775
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.2d
+			y: -11.6d
+			dependencies: [
+				"36AC49D9B8B95008"
+				"1D5446A11140E010"
+				"6A72E8EFBEEFFFF7"
+				"76857729F6CED647"
+				"576B859C0F5133A8"
+			]
+			id: "1B581206F4439690"
+			tasks: [{
+				id: "1D10DD8BBB9F1806"
+				type: "item"
+				item: "kubejs:mystian_blossom"
+			}]
+		}
+		{
+			x: -0.2d
+			y: -12.8d
+			dependencies: ["1B581206F4439690"]
+			id: "0F12C33107DC3F76"
+			tasks: [{
+				id: "6F527FDA630ADBE4"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			title: "World Conqueror's Trophy"
+			x: -0.2d
+			y: -8.4d
+			dependencies: ["204A4642A19B2184"]
+			id: "576B859C0F5133A8"
+			tasks: [{
+				id: "5721B0134172A344"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+			rewards: [{
+				id: "47F20E385CA150BF"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+	]
+}
