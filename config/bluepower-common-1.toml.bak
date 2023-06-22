@@ -128,7 +128,7 @@
 
 	[WorldGen.Marble]
 		#Generate Marble
-		generateMarble = true
+		generateMarble = false
 		#veinSizeMarble
 		veinSizeMarble = 2048
 
