@@ -41,7 +41,7 @@
 #Marble Generation
 [marble]
 	#Generate marble in the world [true / false]
-	marbleGeneration = true
+	marbleGeneration = false
 	#Size of marble pockets [0-100, default: 20]
 	#Range: 0 ~ 100
 	marbleSize = 20
