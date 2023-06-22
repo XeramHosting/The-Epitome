@@ -500,7 +500,7 @@ Basically, AE2 is so annoying that it is extremly hard to use EE materials for i
 	//Fluix block
 	event.replaceOutput({}, 'appliedenergistics2:fluix_block', 'emendatusenigmatica:fluix_block')
 	event.replaceOutput({}, '#forge:storage_blocks/fluix', 'emendatusenigmatica:fluix_block')
-*/
+
 //CERTUS QUARTZ
 	//Certus quartz crystal
 	event.replaceOutput({}, 'emendatusenigmatica:certus_quartz_gem', 'appliedenergistics2:certus_quartz_crystal')
@@ -528,6 +528,7 @@ Basically, AE2 is so annoying that it is extremly hard to use EE materials for i
 	event.replaceOutput({}, 'emendatusenigmatica:fluix_block', 'appliedenergistics2:fluix_block')
 	event.replaceOutput({}, '#forge:storage_blocks/fluix', 'appliedenergistics2:fluix_block')
 //
+*/
 //
 //-----MODDED GEMS-----
 //
@@ -857,7 +858,6 @@ Basically, AE2 is so annoying that it is extremly hard to use EE materials for i
 //SILICON
 	//Silicon gem
 	event.replaceOutput({}, 'tinyredstone:silicon', 'emendatusenigmatica:silicon_gem')
-	event.replaceOutput({}, 'appliedenergistics2:silicon', 'emendatusenigmatica:silicon_gem')
 	event.replaceOutput({}, '#forge:silicon', 'emendatusenigmatica:silicon_gem')
 	event.replaceOutput({}, '#forge:gems/silicon', 'emendatusenigmatica:silicon_gem')
 

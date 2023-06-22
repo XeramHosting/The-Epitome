@@ -77,16 +77,6 @@ events.listen('worldgen.remove', (event) => {
             ores.blocks = ['tconstruct:cobalt_ore'];
         });
     
-    //CERTUS QUARTZ
-        event.removeOres((ores) => {
-            ores.blocks = ['appliedenergistics2:quartz_ore'];
-        });
-    
-    //CHARGED CERTUS QUARTZ
-        event.removeOres((ores) => {
-            ores.blocks = ['appliedenergistics2:charged_quartz_ore'];
-        });
-    
     //FLUORITE
         event.removeOres((ores) => {
             ores.blocks = ['mekanism:fluorite_ore'];

@@ -20,7 +20,6 @@ onEvent('recipes', event => {
     //ENDER DUST
 	event.replaceInput({}, '#forge:dusts/ender', 'emendatusenigmatica:ender_dust')
 	event.replaceInput({}, '#forge:dusts/ender_pearl', 'emendatusenigmatica:ender_dust')
-	event.replaceInput({}, 'appliedenergistics2:ender_dust', 'emendatusenigmatica:ender_dust')
 	event.replaceInput({}, 'thermal:ender_pearl_dust', 'emendatusenigmatica:ender_dust')
 	event.replaceInput({}, 'betterendforge:ender_dust', 'emendatusenigmatica:ender_dust')
 	event.replaceInput({}, 'miniutilities:ender_dust', 'emendatusenigmatica:ender_dust')
