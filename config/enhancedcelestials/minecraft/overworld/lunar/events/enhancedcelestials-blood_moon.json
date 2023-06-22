@@ -32,10 +32,7 @@
       "ambient": [],
       "water_creature": [],
       "water_ambient": [],
-      "misc": [],
-      "vampirism_hunter": [],
-      "vampirism_vampire": [],
-      "IECREATURE": []
+      "misc": []
     },
     "spawn_costs": {},
     "player_spawn_friendly": false
