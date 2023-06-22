@@ -265,7 +265,7 @@
     B:WitheredTomeEnabled=true
 
     # Whether or not Wormhole Potion should be enabled. [default: true, synchronized: yes]
-    B:WormholePotionEnabled=true
+    B:WormholePotionEnabled=false
 
     # Whether or not Wrath Enchantment should be enabled. [default: true, synchronized: yes]
     B:WrathEnchantmentEnabled=true
